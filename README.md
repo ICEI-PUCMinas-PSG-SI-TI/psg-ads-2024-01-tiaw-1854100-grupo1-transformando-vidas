@@ -1,14 +1,17 @@
-# Nome do projeto
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+# Nome do projeto: EducaWeb
+
+Esse projeto tem o intuito de apresentar, capacitar e incluir jovens adultos (de baixa renda) no mercado de trabalho, através da tecnologia. A plataforma contará com análise financeira (usando parâmetros reais) para definir a condição social de um solicitante ao serviço. Sendo as condições, previamente estabelecidas, aceitas, a pessoa terá acesso a todo o conteúdo do site.
+
+Serão ofertados cursos BÁSICOS profissionalizantes para a capacitação. Mas além dessa capacitação, entendemos que sem portas abertas, fica impossível de entrar no mercado. Então, o site também terá uma tela exclusiva para gerar conexões entre os alunos e empresas parceiras com vagas (de emprego ou contrato) disponíveis.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 4
-* Nome completo do aluno 4
+* Augusto Gomes Costa Galery
+* Karine Mikaelle Dias Pereira
+* Maria Luiza Ribeiro Ruas
+* Murilo Cardoso Alencar
+* Samuel Estevão Carvalho da Silva
+* Samuel Maia de Oliveira
 
 ## Professores responsáveis
 
