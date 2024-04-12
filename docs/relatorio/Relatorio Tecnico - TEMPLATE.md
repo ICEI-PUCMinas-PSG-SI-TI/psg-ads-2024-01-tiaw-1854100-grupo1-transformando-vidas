@@ -45,7 +45,9 @@ Análise e Desenvolvimento de Sistemas - PUC Minas São Gabriel
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Pessoas de baixa renda, principalmente jovens-adultos sem nenhum tipo de experiência, não conseguem se aplicar nas vagas disponíveis no mercado de trabalho. Entendemos que isso acontece por principalmente dois motivos:
+- Falta de conhecimento técnico necessário para conseguir as melhores vagas.
+- Dificuldade em achar as vagas em que a pessoa se encaixa.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -57,7 +59,8 @@ Análise e Desenvolvimento de Sistemas - PUC Minas São Gabriel
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O objetivo do EducaWeb é, através da educação, capacitar pessoas de baixa renda a entrar no mercado de trabalho, tornando-as mais competitivas para entrar nas vagas mais concorridas e melhores empregos. Assim, melhorando a qualidade de vida dessas pessoas. 
+Além disso, entendemos que o NetWorking é essencial no mercado atual, por isso, também existe o objetivo de gerar uma conexão entre os alunos e empresas parceiras. O projeto também tem o objetivo de atrair professores voluntários para ministrar aulas, gravá-las e disponibilizar no nosso repositório de cursos.
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
