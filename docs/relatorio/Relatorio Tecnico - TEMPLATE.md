@@ -1,15 +1,21 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+EducaWeb - Transformando vidas através da educação e tecnologia.
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Análise e Desenvolvimento de Sistemas - PUC Minas São Gabriel
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Os membros do grupo são:
+> - Augusto Gomes Costa Galery
+> - Karine Mikaelle Dias Pereira
+> - Maria Luiza Ribeiro Ruas
+> - Murilo Cardoso Alencar
+> - Samuel Estevão Carvalho da Silva
+> - Samuel Maia de Oliveira
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
