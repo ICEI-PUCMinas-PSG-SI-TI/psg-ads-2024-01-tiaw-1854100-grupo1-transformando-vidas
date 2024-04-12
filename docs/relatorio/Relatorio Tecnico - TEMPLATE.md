@@ -49,47 +49,21 @@ Pessoas de baixa renda, principalmente jovens-adultos sem nenhum tipo de experi�
 - Falta de conhecimento técnico necessário para conseguir as melhores vagas.
 - Dificuldade em achar as vagas em que a pessoa se encaixa.
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos. Utilize como base a ficha inicial de detalhamento do problema.
->
-
 ## Objetivos
 
-O objetivo do EducaWeb é, através da educação, capacitar pessoas de baixa renda a entrar no mercado de trabalho, tornando-as mais competitivas para entrar nas vagas mais concorridas e melhores empregos. Assim, melhorando a qualidade de vida dessas pessoas. 
+O objetivo do EducaWeb é, através da educação, capacitar pessoas de baixa renda a entrar no mercado de trabalho, tornando-as mais competitivas para entrar nas vagas mais concorridas e melhores empregos. Assim, melhorando a qualidade de vida dessas pessoas, além de dar oportunidade a pessoas em situação de vulnerabilidade, a encontrar sentido nos estudos. 
 Além disso, entendemos que o NetWorking é essencial no mercado atual, por isso, também existe o objetivo de gerar uma conexão entre os alunos e empresas parceiras. O projeto também tem o objetivo de atrair professores voluntários para ministrar aulas, gravá-las e disponibilizar no nosso repositório de cursos.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também pelo menos 2 objetivos
-> específicos dependendo de onde você vai querer concentrar ou aprofundar
-> as características do trabalho.
-> 
-> **Link Útil**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+> Objetivos específicos:
+> - Proporcionar a jovens de lares abusivos, um novo sentido de vida através da educação
+> - Proporcionar a pessoas em condições financeiras precárias, oportunidades para mudança de vida
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O público-alvo do projeto é, principalmente, jovens de baixa renda que procuram um direcionamento para sua vida profissional. Pessoas que, muitas vezes, não tem sequer uma oportunidade para obter algum diferencial em relação às demais pessoas, pois não tem condições financeiras de investir em si mesmos. 
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
- 
+Presumimos que o público-alvo não tem experiência ou contato prévio com tecnologia.
+
 # Especificações do Projeto
 
 ......  COLOQUE AQUI O SEU TEXTO ......
