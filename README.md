@@ -20,6 +20,7 @@ Serão ofertados cursos BÁSICOS profissionalizantes para a capacitação. Mas a
 
 ## Quadro de tarefas
 Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em outra plataforma.
+https://github.com/orgs/ICEI-PUCMinas-PSG-SI-TI/projects/37/views/1
 
 ## Instruções para uso
 Coloque aqui as instruções para acessar a página inicial do projeto (caminho completo do arquivo).
