@@ -178,7 +178,9 @@ https://www.figma.com/file/3up1CgMyA9ULuVXgcwUaMM/Grupo-1-TIAW---P%C3%A1ginas-e-
 
 # Conclusões
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O projeto irá ajudar pessoas de baixa renda a adentrar no mercado de trabalho, produzir histórias de como a educação pode ser, e é, uma grande ferramenta de transformação social. Neste primeiro momento, foi possível desenhar e compreender o panorama geral do projeto, arquitetar nossos objetivos e funcionalidades que queremos implementar para a melhor UX possível. 
+
+Pontos essenciais como público alvo, voluntários, parceiros e patrocinadores também foram discutidos e esperamos ampliar ainda mais a gama de funcionalidades para cada um deles!
 
 > Finalize escrevendo um ou dois parágrafos para relembrar o objetivo do projeto, 
 > o que foi possível alcançar e o que ficou para um trabalho futuro, e relembrando
