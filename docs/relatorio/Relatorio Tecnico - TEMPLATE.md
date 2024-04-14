@@ -17,12 +17,6 @@ Análise e Desenvolvimento de Sistemas - PUC Minas São Gabriel
 > - Samuel Estevão Carvalho da Silva
 > - Samuel Maia de Oliveira
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
-
 # Estrutura do Documento
 
 - [Informações do Projeto](#informações-do-projeto)
@@ -74,7 +68,39 @@ Presumimos que o público-alvo não tem experiência ou contato prévio com tecn
 
 ## Personas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Personas do projeto:
+
+> Persona 1:
+> - Nome: João Lucas da Silva
+> - Idade: 41
+> - Hobby: Se dedicar à sua família
+> - Trabalho: Desempregado
+> - Personalidade: Dedicado e comprometido com seus objetivos e trabalha diligentemente para alcançá-los.
+> - Sonha em experimentar diferentes campos de trabalho para descobrir seus interesses e melhorar a condição de vida da sua família
+> - Objetos e lugares: Ele utiliza o celular principalmente para comunicação, já que o modelo que possui não é dos mais avançados e lanhouse.
+> - Objetivos chave: Buscar conhecimento para desenvolver, criar e manter sistemas computacionais.
+
+> Persona 2:
+> - Nome: Giovana Vieira
+> - Idade: 19
+> - Hobby: Desenhar/Criar
+> - Trabalho: Caixa
+> - Personalidade: Uma pessoa divertida, alegre e positiva, é espontânea e gosta de aproveitar o momento sem se preocupar muito com o futuro.
+> - Sonhos: Realização pessoal, desejando ter estabilidade financeira e planeja construir uma carreira bem-sucedida na área da tecnologia.
+> - Objetos e lugares: Trabalhando como caixa, ela adquiriu conhecimento sobre sistemas de compra, incluindo como as transações ocorrem e como são armazenadas. Essa experiência a tornou mais eficaz em seu trabalho.
+> - Giovana Vieira procura novas vagas de emprego, e entender mais de sistemas, como SQL e armazenamento de
+dados.
+
+> Persona 3:
+> - Nome: Nathan Lopes
+> - Idade: 18
+> - Hobby: Jogar futebol
+> - Trabalho: Auxiliar do treinador do time infantil da comunidade
+> - Personalidade: Sempre alegre, disposto a sonhar alto e a trabalhar duro para conquistar seus sonhos
+> - Sonhos: Aprender tecnologia para desenvolver sua própria loja online de materiais esportivos
+> - Objetos e lugares: Ele usa seu celular para seu trabalho, anotando o perfil dos garotos do time, estratégias para serem usadas e tornar o time da comunidade conhecido nas redes sociais e atrair patrocinadores.
+> - Objetivos chave: Nathan deseja adquirir habilidades básicas de desenvolvimento web para criar e gerenciar seu próprio site de e-commerce. Ele precisa do nosso projeto porque não tem condições de pagar cursos caros ou faculdade.
+
 
 > Relacione as personas identificadas no seu projeto. Lembre-se que 
 > você deve descrever precisamente e de forma personalizada o público alvo do seu projeto. 
@@ -96,17 +122,14 @@ Presumimos que o público-alvo não tem experiência ou contato prévio com tecn
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+- Eu como aluno do site, quero/preciso registrar meus cursos em progresso para não perdê-los
+- Eu como professor voluntário, quero/preciso criar novos cursos e subir vários vídeos em cada um deles para que os alunos possam assisti-los
+- Eu como empresa parceira, quero/preciso subir novas vagas que estou oferecendo para contratar novos funcionários
+- Eu como aluno do site, preciso de subir candidatura às vagas disponíveis, para poder ser considerado para o trabalho
+- Eu como empresa parceira, preciso de uma tela de chat ao vivo para me comunicar com os meus candidatos e, eventualmente, marcar entrevistas
+- Eu como aluno/professor/empresa preciso de editar meus dados para corrigir dados incorretos e/ou ultrapassados
+- Eu como aluno do site, preciso de validação de conclusão do curso para receber uma certificação
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Seguindo o modelo acima, apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> da sua aplicação. Utilize as personas criadas como atores e, se for o caso, um administrador. 
->
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
 > - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
@@ -117,39 +140,37 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 ### Requisitos Funcionais
 
+ID          Descrição                                     Prioridade
+RF-001      Permitir criar cursos                         ALTA
+RF-002      Emitir certificados                           MÉDIA
+RF-003      Criar quiz                                    MÉDIA
+RF-004      Subir novas vagas                             ALTA
+RF-005      Enviar/receber mensagens                      MÉDIA
+RF-006      Enviar candidatura                            ALTA
+RF-007      Registrar progresso                           MÉDIA
+RF-008      Demonstrar interesse em áreas específicas     MÉDIA
+RF-009      Realizar doações                              MÉDIA
+
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
-> Descreva brevemente quais tecnologias e/ou frameworks foram utilizados no projeto.
+Tecnologias/Ferramentas:
+- Bootstrap (Framework de css)
+- Figma (Wireframe)
+- Miro (Mapa de stakeholders, personas, etc.)
+- Git (Versionamento de código)
+- JavaScript (Linguagem de programação front-end)
+- Visual Studio Code (Ambiente de desenvolvimento)
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+https://www.figma.com/file/3up1CgMyA9ULuVXgcwUaMM/Grupo-1-TIAW---P%C3%A1ginas-e-Mapa-de-Navega%C3%A7%C3%A3o?type=design&node-id=0%3A1&mode=design&t=3LTqT9k6XM6vom15-1
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
 > **Exemplo**:
 > 
 > ![Exemplo de Link para Wireframe](images/wireframe-example.png)
@@ -157,11 +178,7 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 ## Mapa de navegação
 
-......  COLOQUE AQUI O SEU TEXTO OU DIAGRAMA DE NAVEGAÇÃO .......
-
-> Inclua uma descrição textual ou um diagrama mostrando, sequencialmente, quais ações
-> um usuário deve realizar para utilizar todas as características do seu sistema. 
-
+https://www.figma.com/file/3up1CgMyA9ULuVXgcwUaMM/Grupo-1-TIAW---P%C3%A1ginas-e-Mapa-de-Navega%C3%A7%C3%A3o?type=design&node-id=0%3A1&mode=design&t=3LTqT9k6XM6vom15-1
 
 > **Exemplo de Diagrama (opcional, pode ser em texto)**
 > ![Exemplo de Diagrama de Navegação](images/userflow.jpg)
