@@ -140,16 +140,16 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 ### Requisitos Funcionais
 
-ID          Descrição                                     Prioridade
-RF-001      Permitir criar cursos                         ALTA
-RF-002      Emitir certificados                           MÉDIA
-RF-003      Criar quiz                                    MÉDIA
-RF-004      Subir novas vagas                             ALTA
-RF-005      Enviar/receber mensagens                      MÉDIA
-RF-006      Enviar candidatura                            ALTA
-RF-007      Registrar progresso                           MÉDIA
-RF-008      Demonstrar interesse em áreas específicas     MÉDIA
-RF-009      Realizar doações                              MÉDIA
+> ID          Descrição                                     Prioridade
+>- RF-001      Permitir criar cursos                         ALTA
+>- RF-002      Emitir certificados                           MÉDIA
+>- RF-003      Criar quiz                                    MÉDIA
+>- RF-004      Subir novas vagas                             ALTA
+>- RF-005      Enviar/receber mensagens                      MÉDIA
+>- RF-006      Enviar candidatura                            ALTA
+>- RF-007      Registrar progresso                           MÉDIA
+>- RF-008      Demonstrar interesse em áreas específicas     MÉDIA
+>- RF-009      Realizar doações                              MÉDIA
 
 
 |ID    | Descrição do Requisito  | Prioridade |
@@ -171,17 +171,10 @@ Tecnologias/Ferramentas:
 
 https://www.figma.com/file/3up1CgMyA9ULuVXgcwUaMM/Grupo-1-TIAW---P%C3%A1ginas-e-Mapa-de-Navega%C3%A7%C3%A3o?type=design&node-id=0%3A1&mode=design&t=3LTqT9k6XM6vom15-1
 
-> **Exemplo**:
-> 
-> ![Exemplo de Link para Wireframe](images/wireframe-example.png)
-
 
 ## Mapa de navegação
 
 https://www.figma.com/file/3up1CgMyA9ULuVXgcwUaMM/Grupo-1-TIAW---P%C3%A1ginas-e-Mapa-de-Navega%C3%A7%C3%A3o?type=design&node-id=0%3A1&mode=design&t=3LTqT9k6XM6vom15-1
-
-> **Exemplo de Diagrama (opcional, pode ser em texto)**
-> ![Exemplo de Diagrama de Navegação](images/userflow.jpg)
 
 # Conclusões
 
