@@ -1,0 +1,170 @@
+body{
+    height: 97vh;
+    width: 98vw;
+}
+main{
+    height: 60%;
+    width: 58%;
+    margin: 0 auto;
+}
+
+#titulo-main{
+    height: 8%;
+    width: 100%;
+    display: block;
+    margin-bottom:5% ;
+    text-align: center;
+    font-size: 150%;
+}
+#alinhar{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    gap: 1%;
+    margin: 0 auto;
+
+}
+
+.formulario{
+    height:100% ;
+    width:70% ;
+    display: block;
+    margin: 0 auto;
+}
+
+input{
+    height: 10%;
+    width: 100%;
+    border-radius: 5px;
+}
+.botao{
+    height: 17%;
+    width: 29%;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: block;
+    
+
+}
+.botao>button{
+    height: 100%;
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 8px;
+    display: block;
+    background-image: linear-gradient(#1232A4,#07133E);
+    color: white;
+}
+.botao>button:hover{
+    background-image: linear-gradient(43deg, #1232A4 0%, #5313bb 100%);
+}
+button:hover{
+    box-shadow: -3px 3px;
+}
+#alinhar1{
+    height:18% ;
+    width: 90%;
+    margin: 5% auto 0;
+}
+#conjunto-link{
+    height:100% ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+}
+
+.link{
+    height:100% ;
+    width: 20%;
+    border: solid 1px black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 70%;
+    box-shadow: -1px 2px 4px 0px;
+}
+
+#cursos>img{
+    height: 30%;
+    width: 20%;
+    margin-top: 7%;
+}
+#certificado>img{
+    height:40% ;
+    width: 20%;
+    margin-top: 6%;
+}
+#vagas>img{
+    height:40% ;
+    width: 20%;
+    margin-top: 6%;
+}
+
+#conjunto-link>button:hover{
+    background-image: linear-gradient(43deg, #6d70ff 0%, #bc99f5 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  header */
+.cabecalho{
+    height: 2%;
+    color: var(--cor-texto);
+    font-family: var(--fonte-header);
+}
+
+.logo-texto{
+    font-weight: bolder;
+    font-style: italic;
+    width: 78px;
+}
+
+.nav-item{
+    color: var(--cor-texto);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.selecionado{
+    color: #3e66f2;
+}
+
+.nav-item:hover{
+    color: #3e66f2;
+}
+
+.entrar{
+    width: 132px;
+    height: 45px;
+    background-color: var(--cor-background);
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-size: 70%;
+}
+
+.entrar:hover{
+    color: var(--cor-background);
+    background-image: linear-gradient(43deg, #1232A4 0%, #8D4CF9 100%);
+}
+#minha-conta>img{
+    height:40% ;
+    width: 13%;
+    padding-bottom: 5%;
+    }

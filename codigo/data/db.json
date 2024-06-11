@@ -1,0 +1,360 @@
+{
+  "vagas": [
+    {
+      "id": "edd1",
+      "titulo": "Dev Senior",
+      "descricao": "Desenvolvimento WEB",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "PostgreSQL",
+      "salario": "7500",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": [
+        {
+          "id": "1",
+          "nome": "Samuel"
+        },
+        {
+          "id": "1",
+          "nome": "Samuel",
+          "dia": "19",
+          "mes": "05",
+          "ano": "2000",
+          "sexo": "Masculino",
+          "local": "Belo Horizonte",
+          "sobre": "Desenvolvedor de Software",
+          "cursos": [
+            {
+              "id": 1717448943671,
+              "nome": "Curso Html completo",
+              "conteudo": "HTML",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você vai aprender a criar um site!"
+            },
+            {
+              "id": 1717448972851,
+              "nome": "Curso c#",
+              "conteudo": "C#",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você começara do zero no C#!"
+            },
+            {
+              "id": 1717449013254,
+              "nome": "Curso java",
+              "conteudo": "Java",
+              "link": "www.google.com",
+              "descricao": "Um curso completo de Java!"
+            },
+            {
+              "id": 1717449032273,
+              "nome": "Curso excel",
+              "conteudo": "Excel",
+              "link": "www.google.com",
+              "descricao": "Um começo incrivel no Excel!"
+            }
+          ],
+          "descricao": "Desenvolvedor de Software"
+        }
+      ]
+    },
+    {
+      "id": "e73e",
+      "titulo": "bc",
+      "descricao": "d",
+      "jornada": "e",
+      "requisitos": "g",
+      "desejavel": "h",
+      "salario": "ij",
+      "regime": "Remoto",
+      "empresa": "a",
+      "candidatos": []
+    },
+    {
+      "id": "cd13",
+      "titulo": "Vendedor",
+      "descricao": "Vender artigos esportivos variados, tais como chuteiras, roupas, tênis, etc.",
+      "jornada": "8h",
+      "requisitos": "Nenhum",
+      "desejavel": "Boa comunicação, desenvoltura",
+      "salario": "1550",
+      "regime": "Presencial",
+      "empresa": "Saint Club Ltda.",
+      "candidatos": []
+    }
+  ],
+  "alunos": [
+    {
+      "id": "1",
+      "nome": "Samuel",
+      "dia": "19",
+      "mes": "05",
+      "ano": "2000",
+      "sexo": "Masculino",
+      "local": "Belo Horizonte",
+      "sobre": "Desenvolvedor de Software",
+      "cursos": [
+        {
+          "id": 1717448943671,
+          "nome": "Curso Html completo",
+          "conteudo": "HTML",
+          "link": "www.google.com",
+          "descricao": "Nesse curso você vai aprender a criar um site!"
+        },
+        {
+          "id": 1717448972851,
+          "nome": "Curso c#",
+          "conteudo": "C#",
+          "link": "www.google.com",
+          "descricao": "Nesse curso você começara do zero no C#!"
+        },
+        {
+          "id": 1717449013254,
+          "nome": "Curso java",
+          "conteudo": "Java",
+          "link": "www.google.com",
+          "descricao": "Um curso completo de Java!"
+        },
+        {
+          "id": 1717449032273,
+          "nome": "Curso excel",
+          "conteudo": "Excel",
+          "link": "www.google.com",
+          "descricao": "Um começo incrivel no Excel!"
+        }
+      ],
+      "descricao": "Desenvolvedor de Software"
+    },
+    {
+      "id": "3e16",
+      "nome": "Samuel Maia de Oliveira",
+      "cpf": "16935206642",
+      "email": "smaia190500@gmail.com",
+      "salario": "1500",
+      "senha": "Samuca1905!",
+      "cursos": []
+    },
+    {
+      "id": "669f",
+      "nome": "Samuel",
+      "cpf": "16935206642",
+      "email": "smaia9@outlook.com",
+      "salario": "1500",
+      "senha": "123456",
+      "cursos": []
+    },
+    {
+      "id": "f790",
+      "nome": "Samuel",
+      "cpf": "16935206642",
+      "email": "smaia9@outlook.com",
+      "salario": "1500",
+      "senha": "123",
+      "cursos": []
+    },
+    {
+      "id": "f1cf",
+      "nome": "Samuel",
+      "cpf": "16935206642",
+      "email": "smaia9@outlook.com",
+      "salario": "1500",
+      "senha": "a",
+      "cursos": []
+    },
+    {
+      "id": "b2d3",
+      "nome": "Samuel",
+      "cpf": "15418000198",
+      "email": "smaia9@outlook.com",
+      "salario": "1500",
+      "senha": "aaaaa",
+      "cursos": []
+    }
+  ],
+  "professores": [
+    {
+      "id": "3",
+      "nome": "Samuel",
+      "cpf": "16935206642",
+      "email": "smaia9@outlook.com",
+      "tempoAtuacao": "1500",
+      "senha": "asasa",
+      "descricao": "",
+      "cursos": [
+        {
+          "nome": "JavaScript Moderno",
+          "descricao": "Aprenda JavaScript",
+          "link": "https://www.youtube.com/watch?v=FdePtO5JSd0&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=6",
+          "id": "08ab",
+          "professor": "Fulano"
+        },
+        {
+          "nome": "JavaScript avançado",
+          "descricao": "Aprenda JavaScript",
+          "id": "3696",
+          "professor": "Fulano"
+        },
+        {
+          "nome": "HTML e CSS",
+          "descricao": "JavaScript",
+          "link": "https://www.youtube.com/watch?v=FdePtO5JSd0&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=6",
+          "id": "7dd6",
+          "professor": "Fulano"
+        },
+        {
+          "nome": "React",
+          "descricao": "Aprenda JavaScript",
+          "id": "89fc",
+          "professor": "Fulano"
+        }
+      ]
+    }
+  ],
+  "empresas": [
+    {
+      "id": "5",
+      "nome": "Tecnologia Ltda",
+      "cnpj": "15418000198",
+      "contato": "31972236026",
+      "local": "Belo Horizonte",
+      "email": "smaia9@outlook.com",
+      "areaProjetos": "Tecnologia",
+      "ramo": "Tecnologia",
+      "criacao": "2023",
+      "senha": "123",
+      "vagas": [
+        {
+          "id": "c941",
+          "titulo": "Professor",
+          "descricao": "Dar aulas para o curso de Análise e Desenvolvimento de Sistemas: Disciplina de Trabalho Interdisciplinar de Aplicações Web",
+          "jornada": "8h",
+          "requisitos": "Curso superior em áreas da computação, Mestrado",
+          "desejavel": "Curso de pedagogia ou equivalente",
+          "salario": "15000",
+          "regime": "Presencial",
+          "empresa": "PUC Minas",
+          "candidatos": []
+        },
+        {
+          "id": "edd1",
+          "titulo": "Dev Senior",
+          "descricao": "Desenvolvimento WEB",
+          "jornada": "8h",
+          "requisitos": "JavaScript, React, TailwindCss",
+          "desejavel": "PostgreSQL",
+          "salario": "7500",
+          "regime": "Remoto",
+          "empresa": "Tecnologia Ltda.",
+          "candidatos": [
+            {
+              "id": "1",
+              "nome": "Samuel"
+            }
+          ]
+        },
+        {
+          "titulo": "b",
+          "descricao": "c",
+          "jornada": "d",
+          "requisitos": "f",
+          "desejavel": "g",
+          "salario": "h",
+          "regime": "Remoto",
+          "empresa": "a",
+          "candidatos": []
+        },
+        {
+          "titulo": "b",
+          "descricao": "c",
+          "jornada": "d",
+          "requisitos": "f",
+          "desejavel": "g",
+          "salario": "htj",
+          "regime": "Remoto",
+          "empresa": "a",
+          "candidatos": []
+        },
+        {
+          "titulo": "bc",
+          "descricao": "d",
+          "jornada": "e",
+          "requisitos": "g",
+          "desejavel": "h",
+          "salario": "ij",
+          "regime": "Remoto",
+          "empresa": "a",
+          "candidatos": []
+        },
+        {
+          "titulo": "Vendedor",
+          "descricao": "Vender artigos esportivos variados, tais como chuteiras, roupas, tênis, etc.",
+          "jornada": "8h",
+          "requisitos": "Nenhum",
+          "desejavel": "Boa comunicação, desenvoltura",
+          "salario": "1550",
+          "regime": "Presencial",
+          "empresa": "Saint Club Ltda.",
+          "candidatos": []
+        }
+      ]
+    }
+  ],
+  "cursos": [
+    {
+      "nome": "JavaScript Moderno",
+      "descricao": "Aprenda JavaScript",
+      "link": "https://www.youtube.com/watch?v=FdePtO5JSd0&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=6",
+      "id": "08ab",
+      "professor": "Fulano"
+    },
+    {
+      "nome": "JavaScript avançado",
+      "descricao": "Aprenda JavaScript",
+      "id": "3696",
+      "professor": "Fulano"
+    },
+    {
+      "nome": "HTML e CSS",
+      "descricao": "JavaScript",
+      "link": "https://www.youtube.com/watch?v=FdePtO5JSd0&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=6",
+      "id": "7dd6",
+      "professor": "Fulano"
+    },
+    {
+      "nome": "React",
+      "descricao": "Aprenda JavaScript",
+      "id": "89fc",
+      "professor": "Fulano"
+    },
+    {
+      "nome": "Curso de JavaScript",
+      "descricao": "Aprenda JavaScript",
+      "id": "4e59",
+      "professor": "Fulano"
+    },
+    {
+      "nome": "Flutter",
+      "descricao": "Aprenda JavaScript",
+      "id": "d625",
+      "professor": "Fulano"
+    },
+    {
+      "nome": "Flutter",
+      "descricao": "Aprenda JavaScript",
+      "id": "d631",
+      "professor": "Fulano"
+    },
+    {
+      "nome": "Flutter",
+      "descricao": "Aprenda JavaScript",
+      "id": "f225",
+      "professor": "Fulano"
+    },
+    {
+      "nome": "Flutter",
+      "descricao": "Aprenda JavaScript",
+      "id": "mx81",
+      "professor": "Fulano"
+    }
+  ]
+}

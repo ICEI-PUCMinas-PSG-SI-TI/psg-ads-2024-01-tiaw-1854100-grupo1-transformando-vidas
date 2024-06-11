@@ -1,0 +1,23 @@
+.container-info-vaga{
+    padding: 0 10rem;
+}
+
+.div-vaga{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.btn-candidatar{
+    width: 10rem;
+    border-radius: 8px;
+    background-color: #3e66f2;
+    color: white;
+    border: none;
+    padding: .25rem;
+}
+
+.btn-candidatar:hover{
+    background-color: #2f4fc2;
+    cursor: pointer;
+}

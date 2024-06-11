@@ -1,0 +1,175 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* cabeçalho */
+.cabecalho {
+    color: var(--cor-texto);
+    font-family: var(--fonte-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.logo-texto {
+    font-weight: bolder;
+    font-style: italic;
+    width: 78px;
+}
+
+.nav-item {
+    color: var(--cor-texto);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.entrar {
+    width: 132px;
+    height: 45px;
+    background-color: var(--cor-background);
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: background-color 0.5s, color 0.5s; /* transição */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrar:hover {
+    color: #fff;
+    background-image: linear-gradient(43deg, #1232A4 0%, #8D4CF9 100%);
+}
+
+/* corpo */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap; 
+}
+
+.foto-perfil {
+    margin-right: 20px;
+    flex: 1;
+    max-width: 100%; 
+}
+
+.perfil {
+    flex: 1;
+    max-width: 100%; 
+}
+
+.sobre-container {
+    flex: 1;
+    margin-left: 20px;
+    max-width: 100%; 
+}
+
+
+.sobre h3 {
+    font-size: 24px;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobre textarea {
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    resize: none;
+    box-sizing: border-box;
+    margin-bottom: 10px;;
+}
+
+.sobre button {
+    display: block;
+    width: 100px;
+    padding: 6px;
+    font-size: 16px;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    transition: background-color 0.5s, color 0.5s; /* transição */
+    border: 2px solid #3b3c3c;
+}
+
+.sobre button:hover {
+    color: #fff;
+    background-image: linear-gradient(43deg, #1232A4 0%, #8D4CF9 100%);
+}
+
+/* footer */
+footer {
+    background: linear-gradient(to right, #1232A4, #07133E);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+}
+
+/* Linha */
+.custom-hr {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+/* mensagem debaixo da linha*/
+.no-courses-message {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Cards */
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px); 
+    margin-right: 20px;  
+}
+
+.container-dados-perfil{
+    display: flex;
+}
+
+.sobre{
+    width: 40vh;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin-right: 0;
+    }
+}
