@@ -55,6 +55,47 @@
             }
           ],
           "descricao": "Desenvolvedor de Software"
+        },
+        {
+          "id": "1",
+          "nome": "Samuel",
+          "dia": "19",
+          "mes": "05",
+          "ano": "2000",
+          "sexo": "Masculino",
+          "local": "Belo Horizonte",
+          "sobre": "Desenvolvedor de Software",
+          "cursos": [
+            {
+              "id": 1717448943671,
+              "nome": "Curso Html completo",
+              "conteudo": "HTML",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você vai aprender a criar um site!"
+            },
+            {
+              "id": 1717448972851,
+              "nome": "Curso c#",
+              "conteudo": "C#",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você começara do zero no C#!"
+            },
+            {
+              "id": 1717449013254,
+              "nome": "Curso java",
+              "conteudo": "Java",
+              "link": "www.google.com",
+              "descricao": "Um curso completo de Java!"
+            },
+            {
+              "id": 1717449032273,
+              "nome": "Curso excel",
+              "conteudo": "Excel",
+              "link": "www.google.com",
+              "descricao": "Um começo incrivel no Excel!"
+            }
+          ],
+          "descricao": "Desenvolvedor de Software"
         }
       ]
     },
@@ -80,6 +121,18 @@
       "salario": "1550",
       "regime": "Presencial",
       "empresa": "Saint Club Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "56fa",
+      "titulo": "b",
+      "descricao": "c",
+      "jornada": "d",
+      "requisitos": "f",
+      "desejavel": "g",
+      "salario": "h",
+      "regime": "Remoto",
+      "empresa": "a",
       "candidatos": []
     }
   ],
@@ -294,6 +347,17 @@
           "salario": "1550",
           "regime": "Presencial",
           "empresa": "Saint Club Ltda.",
+          "candidatos": []
+        },
+        {
+          "titulo": "b",
+          "descricao": "c",
+          "jornada": "d",
+          "requisitos": "f",
+          "desejavel": "g",
+          "salario": "h",
+          "regime": "Remoto",
+          "empresa": "a",
           "candidatos": []
         }
       ]
