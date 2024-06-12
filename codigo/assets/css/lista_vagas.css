@@ -8,6 +8,10 @@
     --fonte-texto: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+.principal{
+    min-height: 85.8vh;
+}
+
 #link-criar-vaga{
     background-color: rgb(148, 148, 8);
 }
@@ -143,6 +147,17 @@ label{
     display: flex;
     flex-direction: column;
     gap: 2px;
+}
+
+footer {
+    background: linear-gradient(to right, #1232A4, #07133E);
+    height: 2vh;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
 }
 
 @media (max-width: 1000px){

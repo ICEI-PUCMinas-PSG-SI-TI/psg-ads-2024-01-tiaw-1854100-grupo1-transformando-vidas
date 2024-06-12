@@ -24,61 +24,40 @@
 </head>
 <body>
     
-    <header class="cabecalho mb-5 mt-4 mx-4 d-flex justify-content-between">
-        <div class="logo">
-            <p class="logo-texto mb-0">
-                #EDUCA
-            </p>
-            <p class="logo-texto mb-0">
-                &lt;/WEB&gt;
-            </p>
-        </div>
-
-        <nav class="nav d-flex  justify-content-center gap-4">
-            <div>
-                <a href="" class="nav-item">Página Inicial</a>
-            </div>
-            <div>
-                <a href="" class="nav-item">Cursos</a>
-            </div>
-            <div>
-                <a href="" class="nav-item selecionado">Vagas</a>
-            </div>
-            <div>
-                <a href="" class="nav-item">Sobre nós</a>
-            </div>
-        </nav>
-
-        <button class="entrar d-flex justify-content-center align-items-center p-3 gap-1">
-            Conta
-        </button>
-    </header>
-
-    <form class="form-pesquisa">
-        <div class="container-form">
-            <label for="pesquisa">
-                Pesquisar Vaga:
-            </label>
-
-            <div class="container-input-form">
-                <input
-                    type="search"
-                    name="pesquisa"
-                    class="form-control input-form"
-                    placeholder="Pesquisar por nome, empresa ou cargo..."
-                    id="input-pesquisa"
-                />
-
-                <button type="submit" class="btn" id="btn-submit">Pesquisar</button>
-                <a class="btn" id="link-criar-vaga">Criar</a>
-            </div>
-        </div>
-    </form> 
-    
-    <section class="container-card-vagas">
+    <div class="principal">
+        <header class="cabecalho mb-5 mt-4 mx-4 d-flex justify-content-between">
         
-    </section>
+        </header>
+        <form class="form-pesquisa">
+            <div class="container-form">
+                <label for="pesquisa">
+                    Pesquisar Vaga:
+                </label>
+                <div class="container-input-form">
+                    <input
+                        type="search"
+                        name="pesquisa"
+                        class="form-control input-form"
+                        placeholder="Pesquisar por nome, empresa ou cargo..."
+                        id="input-pesquisa"
+                    />
+                    <button type="submit" class="btn" id="btn-submit">Pesquisar</button>
+                    <a class="btn" id="link-criar-vaga">Criar</a>
+                </div>
+            </div>
+        </form>
+        
+        <section class="container-card-vagas">
+        
+        </section>
+    </div>
+
+    <footer class="footer">
+
+    </footer>
 
     <script src="../scripts/lista_vagas.js"></script>
+
+    <script src="../scripts/header.js"></script>
 </body>
 </html>

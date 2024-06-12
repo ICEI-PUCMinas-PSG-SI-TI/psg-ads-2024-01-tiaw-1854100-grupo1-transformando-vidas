@@ -8,6 +8,10 @@
     --fonte-texto: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+.principal{
+    min-height: 85.8vh;
+}
+
 .cabecalho{
     color: var(--cor-texto);
     font-family: var(--fonte-header);
@@ -71,4 +75,15 @@ input{
 
 label{
     font-weight: 500;
+}
+
+footer {
+    background: linear-gradient(to right, #1232A4, #07133E);
+    height: 2vh;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
 }

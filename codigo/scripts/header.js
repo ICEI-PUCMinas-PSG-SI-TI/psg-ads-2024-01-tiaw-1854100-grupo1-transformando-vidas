@@ -40,7 +40,7 @@ footer.innerHTML =
 `
     <div class="footer-social">
         <a>Desenvolvido pelo Grupo1</a>
-        <a href="#"><img src="icons8-instagram-24.png"></a>
-        <a href="#"><img src="icons8-github-24.png" alt="Git Hub"></a>
+        <a href="#"><img src="../assets/img/icons8-instagram-24.png"></a>
+        <a href="#"><img src="../assets/img/icons8-github-24.png" alt="Git Hub"></a>
     </div>
 `
