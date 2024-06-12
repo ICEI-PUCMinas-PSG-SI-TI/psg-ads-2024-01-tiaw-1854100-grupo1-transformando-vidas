@@ -96,6 +96,47 @@
             }
           ],
           "descricao": "Desenvolvedor de Software"
+        },
+        {
+          "id": "1",
+          "nome": "Samuel",
+          "dia": "19",
+          "mes": "05",
+          "ano": "2000",
+          "sexo": "Masculino",
+          "local": "Belo Horizonte",
+          "sobre": "Não aguento mais a PUC",
+          "cursos": [
+            {
+              "id": 1717448943671,
+              "nome": "Curso Html completo",
+              "conteudo": "HTML",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você vai aprender a criar um site!"
+            },
+            {
+              "id": 1717448972851,
+              "nome": "Curso c#",
+              "conteudo": "C#",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você começara do zero no C#!"
+            },
+            {
+              "id": 1717449013254,
+              "nome": "Curso java",
+              "conteudo": "Java",
+              "link": "www.google.com",
+              "descricao": "Um curso completo de Java!"
+            },
+            {
+              "id": 1717449032273,
+              "nome": "Curso excel",
+              "conteudo": "Excel",
+              "link": "www.google.com",
+              "descricao": "Um começo incrivel no Excel!"
+            }
+          ],
+          "descricao": "Desenvolvedor de Software"
         }
       ]
     },
@@ -134,6 +175,102 @@
       "regime": "Remoto",
       "empresa": "a",
       "candidatos": []
+    },
+    {
+      "id": "c094",
+      "titulo": "Estagiária escrava",
+      "descricao": "fazer de tudo e ganhar nada",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "kkkkkkkkkkkk",
+      "salario": "10000",
+      "regime": "Hibrido",
+      "empresa": "iTexto",
+      "candidatos": [
+        null,
+        {
+          "id": "1",
+          "nome": "Samuel",
+          "dia": "19",
+          "mes": "05",
+          "ano": "2000",
+          "sexo": "Masculino",
+          "local": "Belo Horizonte",
+          "sobre": "Desenvolvedor de Software",
+          "cursos": [
+            {
+              "id": 1717448943671,
+              "nome": "Curso Html completo",
+              "conteudo": "HTML",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você vai aprender a criar um site!"
+            },
+            {
+              "id": 1717448972851,
+              "nome": "Curso c#",
+              "conteudo": "C#",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você começara do zero no C#!"
+            },
+            {
+              "id": 1717449013254,
+              "nome": "Curso java",
+              "conteudo": "Java",
+              "link": "www.google.com",
+              "descricao": "Um curso completo de Java!"
+            },
+            {
+              "id": 1717449032273,
+              "nome": "Curso excel",
+              "conteudo": "Excel",
+              "link": "www.google.com",
+              "descricao": "Um começo incrivel no Excel!"
+            }
+          ],
+          "descricao": "Desenvolvedor de Software"
+        },
+        {
+          "id": "1",
+          "nome": "Samuel",
+          "dia": "19",
+          "mes": "05",
+          "ano": "2000",
+          "sexo": "Masculino",
+          "local": "Belo Horizonte",
+          "sobre": "Desenvolvedor de Software",
+          "cursos": [
+            {
+              "id": 1717448943671,
+              "nome": "Curso Html completo",
+              "conteudo": "HTML",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você vai aprender a criar um site!"
+            },
+            {
+              "id": 1717448972851,
+              "nome": "Curso c#",
+              "conteudo": "C#",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você começara do zero no C#!"
+            },
+            {
+              "id": 1717449013254,
+              "nome": "Curso java",
+              "conteudo": "Java",
+              "link": "www.google.com",
+              "descricao": "Um curso completo de Java!"
+            },
+            {
+              "id": 1717449032273,
+              "nome": "Curso excel",
+              "conteudo": "Excel",
+              "link": "www.google.com",
+              "descricao": "Um começo incrivel no Excel!"
+            }
+          ],
+          "descricao": "Desenvolvedor de Software"
+        }
+      ]
     }
   ],
   "alunos": [
@@ -145,7 +282,7 @@
       "ano": "2000",
       "sexo": "Masculino",
       "local": "Belo Horizonte",
-      "sobre": "Desenvolvedor de Software",
+      "sobre": "Não aguento mais a PUC",
       "cursos": [
         {
           "id": 1717448943671,
@@ -358,6 +495,17 @@
           "salario": "h",
           "regime": "Remoto",
           "empresa": "a",
+          "candidatos": []
+        },
+        {
+          "titulo": "Estagiária escrava",
+          "descricao": "fazer de tudo e ganhar nada",
+          "jornada": "8h",
+          "requisitos": "JavaScript, React, TailwindCss",
+          "desejavel": "kkkkkkkkkkkk",
+          "salario": "10000",
+          "regime": "Hibrido",
+          "empresa": "iTexto",
           "candidatos": []
         }
       ]
