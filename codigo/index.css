@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.main{
+    font-family: var(--fonte-texto);
+    margin-top: 100px;
+}
+
+.pagina-titulo{
+    font-size: 40px;
+}
+
+.tecnologia{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #1232A4 0%, #8D4CF9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.pagina-descricao, .transformar1, .transformar2, .transformar3{
+    font-size: 20px;
+}
+
+.transformar1{
+    margin-left: 300px;
+    color: #2C4154;
+}
+
+.transformar2{
+    margin-left: 310px;
+    color: #1232A4;
+}
+
+.transformar3{
+    margin-left: 320px;
+    color: #8D4CF9;
+}
+
+.card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.btn-card-curso{
+    background-color: #3e66f2;
+    color: white;
+}
+
+.btn-card-curso:hover{
+    color: #3e66f2;
+    border-color: #3e66f2;
+}
+
+.link-entrar{
+    background-color: #3e66f2;
+    color: white;
+    font-size: 24px;
+    width: 200px;
+}
+
+.link-entrar:hover{
+    color: white;
+    background-color: #3e66f2;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.5;
+}
+
+
+@media (max-width: 725px){
+    .container-transformar{
+        display:none;
+    }
+}
+
+@media (max-width: 625px){
+    .nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .entrar{
+        width: 85px;
+    }
+
+    .icone-entrar{
+        display: none;
+    }
+}
+@media (max-width: 855px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1190px){
+    .footer{
+        margin-top: 24px;
+        position: relative;
+    }
+}
+
+@media (max-width: 530px){
+    .container-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

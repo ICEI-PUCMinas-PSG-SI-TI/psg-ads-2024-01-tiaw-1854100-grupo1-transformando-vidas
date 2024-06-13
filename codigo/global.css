@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Este é o Global CSS
+Este arquivo pode alterar o css de todas as paginas,
+
+quando devo usar o global css?
+para padronizar o projeto, por exemplo, deixar todos os buttons azuis,
+ou fazer todo o projeto usar a mesma fonte de texto.
+
+basicamente, apenas use este css para elementos que se repetem em multiplas
+paginas, como o header é o footer. Ou para a padronização, como fonte de
+texto.
+
+
+NOTA: O CSS propio da pagina continua sendo o principal, ou seja
+a não ser que seja colocado um !important, na frente de algum 
+elemento deste css, o css propio da pagina sera sempre o predominante,
+este css sempre vira em segundo lugar.
+ */
+ 
+/* Variaveis */
+ :root{
+    --cor-texto: #13182A; 
+    --cor-background: #F8FAEC;
+    --fonte-header: 'Inter', Arial, Helvetica, sans-serif;
+    --fonte-texto: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+
+
+/* CSS do Header */
+.cabecalho{
+    color: var(--cor-texto);
+    font-family: var(--fonte-header);
+}
+
+.logo-texto{
+    font-weight: bolder;
+    font-style: italic;
+    width: 78px;
+}
+
+.nav-item{
+    color: var(--cor-texto);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.selecionado{
+    color: #3e66f2;
+}
+
+.nav-item:hover{
+    color: #3e66f2;
+}
+
+.Usuario{
+    width: 132px;
+    height: 45px;
+    background-color: var(--cor-background);
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.Usuario:hover{
+    color: var(--cor-background);
+    background-image: linear-gradient(43deg, #1232A4 0%, #8D4CF9 100%);
+}
+.entrar{
+    width: 132px;
+    height: 45px;
+    background-color: var(--cor-background);
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.entrar:hover{
+    color: var(--cor-background);
+    background-image: linear-gradient(43deg, #1232A4 0%, #8D4CF9 100%);
+}
+
+
+/* CSS do Footer */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    background: linear-gradient(to right, #1232A4, #07133E);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
