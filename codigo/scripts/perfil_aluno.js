@@ -19,19 +19,52 @@ document.addEventListener("DOMContentLoaded", function() {
     loadUser()
 
     function setDados(obj){
+        const modal = document.querySelector('.modal')
+        modal.innerHTML = `
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Seguidores de ${obj.nome}</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+            </div>
+        `
+        const corpoModal = document.querySelector('.modal-body')
+        for (seguidor of obj.seguidores){
+            corpoModal.innerHTML += `
+                <p>${seguidor.nome}</p>
+            `
+        }
+
         const div = document.createElement('div')
         div.innerHTML = `
             <div class="foto-perfil">
-                <img src="/assets/img/avatar-do-usuario.png" alt="foto de perfil">
+                <img src="../assets/img/avatar-do-usuario.png" alt="foto de perfil">
                 <p><a href="edicao_perfil.html">Editar Perfil</a></p>
             </div>
 
             <div class="perfil">
                 <h3>${obj.nome}</h3>
                 <p>Data de nascimento: ${obj.dia}/${obj.mes}/${obj.ano}</p>
-                <p>Sexo: ${obj.sexo}</p>
                 <p>Localidade: ${obj.local}</p>
                 <p class="desc">Descrição: ${obj.sobre}</p>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalExemplo">
+                    
+                    Seguidores: ${obj.seguidores.length}
+                </button>
+                <button class="seguir">
+                    <img src="../assets/img/seguidores.png"/>
+                    Seguir
+                </button>
                 
             </div>
             </div>`

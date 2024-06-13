@@ -17,6 +17,22 @@ body {
     margin-bottom: 20px;
 }
 
+.seguir{
+    color: #007bff;
+    border: none;
+    display: block;
+    background-color: transparent;
+}
+
+.seguir:hover{
+    text-decoration: underline;
+}
+
+.icone-seguidores{
+    width: 20px;
+    height: 18px;
+}
+
 .logo-texto {
     font-weight: bolder;
     font-style: italic;

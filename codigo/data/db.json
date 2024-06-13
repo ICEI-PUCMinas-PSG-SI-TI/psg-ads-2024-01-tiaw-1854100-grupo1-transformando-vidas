@@ -282,7 +282,7 @@
       "ano": "2000",
       "sexo": "Masculino",
       "local": "Belo Horizonte",
-      "sobre": "Não aguento mais a PUC",
+      "sobre": "hahahahaha coringuei",
       "cursos": [
         {
           "id": 1717448943671,
@@ -313,7 +313,28 @@
           "descricao": "Um começo incrivel no Excel!"
         }
       ],
-      "descricao": "Desenvolvedor de Software"
+      "descricao": "Desenvolvedor de Software",
+      "seguidores": [
+        {
+          "id": "3e16",
+          "nome": "Samuel Maia de Oliveira",
+          "cpf": "16935206642",
+          "email": "smaia190500@gmail.com",
+          "salario": "1500",
+          "senha": "Samuca1905!",
+          "cursos": []
+        },
+        {
+          "id": "3e16",
+          "nome": "Samuel Maia de Oliveira",
+          "cpf": "16935206642",
+          "email": "smaia190500@gmail.com",
+          "salario": "1500",
+          "senha": "Samuca1905!",
+          "cursos": []
+        }
+      ],
+      "seguindo": []
     },
     {
       "id": "3e16",
