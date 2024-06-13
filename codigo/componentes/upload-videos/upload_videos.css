@@ -38,6 +38,20 @@
     --fonte-texto: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+.entrar{
+    width: 132px;
+    height: 45px;
+    background-color: var(--cor-background);
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.entrar:hover{
+    color: var(--cor-background);
+    background-image: linear-gradient(43deg, #1232A4 0%, #8D4CF9 100%);
+}
+
 .cabecalho{
     color: var(--cor-texto);
     font-family: var(--fonte-header);

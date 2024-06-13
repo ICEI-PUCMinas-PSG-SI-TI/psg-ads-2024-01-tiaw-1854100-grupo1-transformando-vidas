@@ -84,6 +84,8 @@ function criarAluno(){
         salario: renda.value ,
         senha:a_senha.value,
         cursos: [],
+        seguidores: [],
+        seguindo: []
     }
     return aluno;
 }
@@ -97,7 +99,9 @@ function criaProfessor(){
         tempoAtuacao: renda.value ,
         senha:a_senha.value,
         descricao:"",
-        cursos: []
+        cursos: [],
+        seguidores: [],
+        seguindo: []
     }
     return professor
 }
@@ -109,7 +113,9 @@ function criaEmpresa(){
         email:a_email.value,
         areaProjetos: renda.value ,
         senha:a_senha.value,
-        vagas: []
+        vagas: [],
+        seguidores: [],
+        seguindo: []
     }
     return empresa
 }

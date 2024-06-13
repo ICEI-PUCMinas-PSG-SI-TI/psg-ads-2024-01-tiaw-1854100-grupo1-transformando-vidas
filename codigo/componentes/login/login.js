@@ -7,6 +7,10 @@ const btnLogin = document.querySelector('#btn-login')
 let userId
 let urlParam
 
+const urlAlunos = 'http://localhost:3000/alunos'
+const urlProfessores = 'http://localhost:3000/professores'
+const urlEmpresas = 'http://localhost:3000/empresas'
+
 btnLogin.addEventListener('click', (e) => {
     e.preventDefault()
     if(logar()){
@@ -17,46 +21,22 @@ btnLogin.addEventListener('click', (e) => {
     }
 })
 
-const alunos = [
-    {
-        id: 1,
-        email: 'aluno1@gmail.com',
-        senha: '123'
-    },
-    {
-        id: 2,
-        email: 'aluno2@gmail.com',
-        senha: '123'
-    },
-]
+let alunos = []
+let professores = []
+let empresas = []
+const loadUsuarios = async () => {
+    let response = await axios.get(urlAlunos)
+    alunos = response.data
+    response = await axios.get(urlProfessores)
+    professores = response.data 
+    response = await axios.get(urlEmpresas)
+    empresas = response.data
+}
 
-const professores = [
-    {
-        id: 3,
-        email: 'prof1@gmail.com',
-        senha: '123'
-    },
-    {
-        id: 4,
-        email: 'prof2@gmail.com',
-        senha: '123'
-    }
-]
-
-const empresas = [
-    {
-        id: 5,
-        email: 'emp1@gmail.com',
-        senha: '123'
-    },
-    {
-        id: 6,
-        email: 'emp2@gmail.com',
-        senha: '123'
-    }
-]
+loadUsuarios()
 
 function logar(){
+    console.log(alunos)
         if (selectTipo.value == 'aluno'){
             for (let aluno of alunos){
                 if (aluno.email == inputEmail.value && aluno.senha == inputSenha.value){
@@ -64,8 +44,6 @@ function logar(){
                     urlParam = `type=${selectTipo.value}&id=${userId}`
                     return true
                 }  
-                else
-                    return false
             }
         } else if (selectTipo.value == 'professor'){
             for (let professor of professores){
@@ -74,8 +52,6 @@ function logar(){
                     urlParam = `type=${selectTipo.value}&id=${userId}`
                     return true
                 }
-                else
-                    return false
             }
         } else{
             for (let empresa of empresas){
@@ -84,8 +60,6 @@ function logar(){
                     urlParam = `type=${selectTipo.value}&id=${userId}`
                     return true
                 }
-                else
-                    return false
             }
         }
 }
