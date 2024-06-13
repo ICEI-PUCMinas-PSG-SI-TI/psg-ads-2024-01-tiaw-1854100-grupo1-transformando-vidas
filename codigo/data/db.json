@@ -370,16 +370,8 @@
       "email": "smaia9@outlook.com",
       "salario": "1500",
       "senha": "a",
-      "cursos": []
-    },
-    {
-      "id": "b2d3",
-      "nome": "Samuel",
-      "cpf": "15418000198",
-      "email": "smaia9@outlook.com",
-      "salario": "1500",
-      "senha": "aaaaa",
-      "cursos": []
+      "cursos": [],
+      "seguidores": []
     }
   ],
   "professores": [

@@ -18,6 +18,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     loadUser()
 
+    let btnSeguir
+
     function setDados(obj){
         const modal = document.querySelector('.modal')
         modal.innerHTML = `
@@ -39,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
         `
         const corpoModal = document.querySelector('.modal-body')
-        for (seguidor of obj.seguidores){
+        for (seguidor of obj['seguidores']){
             corpoModal.innerHTML += `
                 <p>${seguidor.nome}</p>
             `
@@ -90,7 +92,15 @@ document.addEventListener("DOMContentLoaded", function() {
             await axios.put(`${urlAlunos}/${id}`, user)
             desc.innerText += `${user.sobre}`
         })
+
+        btnSeguir = document.querySelector('.seguir')
+
+        btnSeguir.addEventListener('click', () => {
+            
+        })
     }
+
+    
 
     
 
