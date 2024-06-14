@@ -1,5 +1,4 @@
 const urlParams = new URLSearchParams(window.location.search)
-console.log(window.location.search)
 const type = urlParams.get('type')
 
 const btnVagas = document.querySelector('#link-para-vagas')
