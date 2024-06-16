@@ -1,0 +1,148 @@
+.container-section{
+    height: 63.7vh;
+}
+
+.div-btn{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-excluir{
+    background-color: rgb(175, 7, 7);
+    color: white;
+
+}
+
+
+@media (max-width: 1000px){
+    .container-input-form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 650px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-pesquisa{
+        width: 80vw;
+    }
+}
+
+
+
+body{
+    font-family: var(--fonte-texto);
+}
+
+.form-pesquisa{
+    width: 30%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-weight: 600;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+}
+
+.container-input-form{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn{
+    background-color: #3e66f2;
+    color: var(--cor-background);
+}
+
+.btn:hover{
+    background-color: #2449d1;
+    color: var(--cor-background);
+}
+
+.container-card-vagas{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 85%;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.card-vaga{
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+}
+
+.card-vaga h5{
+    text-align: center;
+    margin-bottom: .75rem;
+}
+
+.desc-vaga{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.sal-vaga, .emp-vaga, .req-vaga {
+    font-size: 13px !important;
+    margin-bottom: 0px;
+    color: #575757 !important;
+    
+}
+
+.btn-acesso{
+    text-decoration: none;
+    color: white;
+    background-color: #3e66f2;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 0.25rem;
+    margin: .75rem 0 0 0;
+}
+
+.btn-acesso:hover{
+    background-color: #2f4fc2;
+    cursor: pointer;
+}
+
+.divInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+@media (max-width: 1000px){
+    .container-input-form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 650px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-pesquisa{
+        width: 80vw;
+    }
+}
