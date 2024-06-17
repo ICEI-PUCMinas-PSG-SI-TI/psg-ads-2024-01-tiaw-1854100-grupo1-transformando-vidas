@@ -14,8 +14,6 @@ if (type == 'empresa'){
 }
 
 
-
-
 const url = 'http://localhost:3000/vagas'
 
 let vagas = []

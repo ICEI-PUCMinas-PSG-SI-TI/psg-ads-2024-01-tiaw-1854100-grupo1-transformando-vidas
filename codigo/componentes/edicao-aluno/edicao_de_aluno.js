@@ -10,7 +10,6 @@ let url_aluno = 'http://localhost:3000/alunos'
 
 const usuario  = "47da" 
 
-console.log(bem_vindo)
 botao_salvar.addEventListener("click", (e) =>{
     e.preventDefault()
     for( let i = 0;i<alunos.length;i++){
