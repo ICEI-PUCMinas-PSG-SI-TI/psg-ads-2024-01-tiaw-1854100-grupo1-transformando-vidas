@@ -42,27 +42,15 @@ function setCurso(curso){
                 </p>
             </div>
             <div className="container-btn d-flex justify-content-start">
-                <button class="btn btn-acessar">
+                <a class="btn btn-acessar" href="../detalhes-curso/detalhes_curso.html?${urlParams}&idCurso=${curso.id}"/>
                     Acessar curso
-                </button>   
+                </a>   
             </div>
         </div>
     `
     containerCursos.appendChild(div)
     console.log(div)
 }
-
-function redirectToCurso2() {
-    window.location.href = 'pagina-do-curso-2.html'; /*mudar link para o de lulu*/
-}
-
-document.addEventListener('DOMContentLoaded', function() {
-    const cards = document.querySelectorAll('.card');
-
-    cards.forEach(card => {
-        card.addEventListener('click', redirectToCurso2);
-    });
-});
 
 
 /*botão filtrar*/
