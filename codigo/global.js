@@ -28,13 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         <nav class="nav d-flex  justify-content-center gap-4">
             <div>
-                <a href="pagina_inicial.html?type=${typeLogin}&id=${idUser}" class="nav-item selecionado">Página Inicial</a>
+                <a href="../../componentes/pagina-inicial/pagina_inicial.html?type=${typeLogin}&id=${idUser}" class="nav-item selecionado">Página Inicial</a>
             </div>
             <div>
-                <a href="lista_cursos.html?type=${typeLogin}&id=${idUser}" class="nav-item">Cursos</a>
+                <a href="../../componentes/lista-curso/lista_cursos.html?type=${typeLogin}&id=${idUser}" class="nav-item">Cursos</a>
             </div>
             <div>
-                <a href="lista_vagas.html?type=${typeLogin}&id=${idUser}" class="nav-item">Vagas</a>
+                <a href="../../componentes/lista-vagas/lista_vagas.html?type=${typeLogin}&id=${idUser}" class="nav-item">Vagas</a>
             </div>
             <div>
                 <a href="" class="nav-item">Sobre nós</a>
