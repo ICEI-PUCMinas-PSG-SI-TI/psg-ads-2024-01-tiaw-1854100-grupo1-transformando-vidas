@@ -10,7 +10,13 @@ const id = urlParams.get('id')
 const linkCriar = document.querySelector('#link-criar-vaga')
 
 if (type == 'empresa'){
-  linkCriar.setAttribute('href', `upload_vagas.html?type=${type}&id=${id}`)
+  linkCriar.setAttribute('href', `../upload-vagas/upload_vagas.html?type=${type}&id=${id}`)
+} else {
+  linkCriar.addEventListener('click', (e) => {
+    e.preventDefault()
+
+    alert('Este recurso está disponível apenas para empresas.')
+  })
 }
 
 

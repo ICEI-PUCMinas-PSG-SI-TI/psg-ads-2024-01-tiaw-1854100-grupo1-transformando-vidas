@@ -1,6 +1,17 @@
 {
   "vagas": [
-    
+    {
+      "id": "c80a",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolvedor Web Estagiário, especificamente para trabalhar no front-end, criando e melhorando interfaces interativas para os usuários.",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "PostgreSQL",
+      "salario": "1500",
+      "regime": "Remoto",
+      "empresa": "Minha empresa",
+      "candidatos": []
+    }
   ],
   "alunos": [
     {
@@ -300,6 +311,17 @@
           "salario": "10000",
           "regime": "Hibrido",
           "empresa": "iTexto",
+          "candidatos": []
+        },
+        {
+          "titulo": "Desenvolvedor Front-end Júnior",
+          "descricao": "Desenvolvedor Web Estagiário, especificamente para trabalhar no front-end, criando e melhorando interfaces interativas para os usuários.",
+          "jornada": "8h",
+          "requisitos": "JavaScript, React, TailwindCss",
+          "desejavel": "PostgreSQL",
+          "salario": "1500",
+          "regime": "Remoto",
+          "empresa": "Minha empresa",
           "candidatos": []
         }
       ],
