@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const div = document.createElement('div')
         div.innerHTML = `
             <div class="foto-perfil">
-                <img src="../assets/img/avatar-do-usuario.png" alt="foto de perfil">
+                <img src="../../assets/img/avatar-do-usuario.png" alt="foto de perfil">
                 <p><a href="edicao_perfil.html">Editar Perfil</a></p>
             </div>
 
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     Seguidores: ${obj.seguidores.length}
                 </button>
                 <button class="seguir">
-                    <img src="../assets/img/seguidores.png"/>
+                    <img src="../../assets/img/seguidores.png"/>
                     Seguir
                 </button>
                 

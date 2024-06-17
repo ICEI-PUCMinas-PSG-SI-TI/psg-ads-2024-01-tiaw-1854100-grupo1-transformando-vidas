@@ -137,6 +137,46 @@
             }
           ],
           "descricao": "Desenvolvedor de Software"
+        },
+        {
+          "id": "3e16",
+          "nome": "Samuel Maia de Oliveira",
+          "cpf": "16935206642",
+          "email": "smaia190500@gmail.com",
+          "salario": "1500",
+          "senha": "Samuca1905!",
+          "cursos": [
+            {
+              "id": 1717448943671,
+              "nome": "Curso Html completo",
+              "conteudo": "HTML",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você vai aprender a criar um site!"
+            },
+            {
+              "id": 1717448972851,
+              "nome": "Curso c#",
+              "conteudo": "C#",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você começara do zero no C#!"
+            },
+            {
+              "id": 1717449013254,
+              "nome": "Curso java",
+              "conteudo": "Java",
+              "link": "www.google.com",
+              "descricao": "Um curso completo de Java!"
+            },
+            {
+              "id": 1717449032273,
+              "nome": "Curso excel",
+              "conteudo": "Excel",
+              "link": "www.google.com",
+              "descricao": "Um começo incrivel no Excel!"
+            }
+          ],
+          "seguidores": [],
+          "seguindo": []
         }
       ]
     },
@@ -343,7 +383,38 @@
       "email": "smaia190500@gmail.com",
       "salario": "1500",
       "senha": "Samuca1905!",
-      "cursos": []
+      "cursos": [
+        {
+          "id": 1717448943671,
+          "nome": "Curso Html completo",
+          "conteudo": "HTML",
+          "link": "www.google.com",
+          "descricao": "Nesse curso você vai aprender a criar um site!"
+        },
+        {
+          "id": 1717448972851,
+          "nome": "Curso c#",
+          "conteudo": "C#",
+          "link": "www.google.com",
+          "descricao": "Nesse curso você começara do zero no C#!"
+        },
+        {
+          "id": 1717449013254,
+          "nome": "Curso java",
+          "conteudo": "Java",
+          "link": "www.google.com",
+          "descricao": "Um curso completo de Java!"
+        },
+        {
+          "id": 1717449032273,
+          "nome": "Curso excel",
+          "conteudo": "Excel",
+          "link": "www.google.com",
+          "descricao": "Um começo incrivel no Excel!"
+        }
+      ],
+      "seguidores": [],
+      "seguindo": []
     },
     {
       "id": "669f",
@@ -410,7 +481,28 @@
           "id": "89fc",
           "professor": "Fulano"
         }
-      ]
+      ],
+      "seguidores": [
+        {
+          "id": "3e16",
+          "nome": "Samuel Maia de Oliveira",
+          "cpf": "16935206642",
+          "email": "smaia190500@gmail.com",
+          "salario": "1500",
+          "senha": "Samuca1905!",
+          "cursos": []
+        },
+        {
+          "id": "3e16",
+          "nome": "Samuel Maia de Oliveira",
+          "cpf": "16935206642",
+          "email": "smaia190500@gmail.com",
+          "salario": "1500",
+          "senha": "Samuca1905!",
+          "cursos": []
+        }
+      ],
+      "seguindo": []
     }
   ],
   "empresas": [
@@ -521,7 +613,28 @@
           "empresa": "iTexto",
           "candidatos": []
         }
-      ]
+      ],
+      "seguidores": [
+        {
+          "id": "3e16",
+          "nome": "Samuel Maia de Oliveira",
+          "cpf": "16935206642",
+          "email": "smaia190500@gmail.com",
+          "salario": "1500",
+          "senha": "Samuca1905!",
+          "cursos": []
+        },
+        {
+          "id": "3e16",
+          "nome": "Samuel Maia de Oliveira",
+          "cpf": "16935206642",
+          "email": "smaia190500@gmail.com",
+          "salario": "1500",
+          "senha": "Samuca1905!",
+          "cursos": []
+        }
+      ],
+      "seguindo": []
     }
   ],
   "cursos": [

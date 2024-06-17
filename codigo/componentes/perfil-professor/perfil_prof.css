@@ -17,6 +17,17 @@ body {
     margin-bottom: 20px;
 }
 
+.seguir{
+    color: #007bff;
+    border: none;
+    display: block;
+    background-color: transparent;
+}
+
+.seguir:hover{
+    text-decoration: underline;
+}
+
 .logo-texto {
     font-weight: bolder;
     font-style: italic;

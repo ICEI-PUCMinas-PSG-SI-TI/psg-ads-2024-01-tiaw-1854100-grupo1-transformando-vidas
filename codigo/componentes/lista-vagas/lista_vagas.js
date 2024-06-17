@@ -42,7 +42,7 @@ btnSubmit.addEventListener('click', (e) => {
 const btnAcesso = () => {
   const btn = document.createElement('a')
   btn.classList.add('btn-acesso')
-  btn.setAttribute('href', `candidata_vaga.html${window.location.search}&idVaga=${vaga.id}`)
+  btn.setAttribute('href', `../candidatar-vaga/candidata_vaga.html${window.location.search}&idVaga=${vaga.id}`)
   btn.innerText = 'Ir para vaga'
   return btn
 }

@@ -41,10 +41,19 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </nav>
 
-        <button class="entrar d-flex justify-content-center align-items-center p-3 gap-1">
+        <a class="entrar btn d-flex justify-content-center align-items-center p-3 gap-1">
             Conta
-        </button>
+        </a>
     `
+    const btnConta = document.querySelector('.entrar')
+
+    if (typeLogin == 'aluno'){
+        btnConta.setAttribute('href', `../perfil-aluno/perfil_aluno.html?${urlP}`)
+    } else if (typeLogin == 'professor'){
+        btnConta.setAttribute('href', `../perfil-professor/perfil_prof.html?${urlP}`)
+    } else if (typeLogin == 'empresa'){
+        btnConta.setAttribute('href', `../perfil-empresa/perfil_emp.html?${urlP}`)
+    }
 
     const footer = document.querySelector('.footer')
     footer.innerHTML = 
