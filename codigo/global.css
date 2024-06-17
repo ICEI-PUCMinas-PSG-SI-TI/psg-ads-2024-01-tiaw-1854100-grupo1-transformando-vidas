@@ -28,7 +28,9 @@ este css sempre vira em segundo lugar.
     --fonte-texto: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
-
+.principal{
+    min-height: 72.9vh;
+}
 
 /* CSS do Header */
 .cabecalho{

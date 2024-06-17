@@ -14,7 +14,7 @@ const urlEmpresas = 'http://localhost:3000/empresas'
 btnLogin.addEventListener('click', (e) => {
     e.preventDefault()
     if(logar()){
-        location.href = `pagina_inicial.html?${urlParam}`
+        window.location.href = `../pagina-inicial/pagina_inicial.html?${urlParam}`
     }
     else{
         alert('Email e/ou senha incorretos!')
@@ -27,6 +27,7 @@ let empresas = []
 const loadUsuarios = async () => {
     let response = await axios.get(urlAlunos)
     alunos = response.data
+    console.log(alunos)
     response = await axios.get(urlProfessores)
     professores = response.data 
     response = await axios.get(urlEmpresas)
