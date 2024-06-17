@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         <nav class="nav d-flex  justify-content-center gap-4">
             <div>
-                <a href="../../componentes/pagina-inicial/pagina_inicial.html?type=${typeLogin}&id=${idUser}" class="nav-item selecionado">Página Inicial</a>
+                <a href="../../componentes/pagina-inicial/pagina_inicial.html?type=${typeLogin}&id=${idUser}" class="nav-item">Página Inicial</a>
             </div>
             <div>
                 <a href="../../componentes/lista-curso/lista_cursos.html?type=${typeLogin}&id=${idUser}" class="nav-item">Cursos</a>
