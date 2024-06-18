@@ -56,7 +56,6 @@ body {
 /*barra de pesquisa*/
 .search-bar { 
     border-radius: 10px; 
-    border: 1px solid black;
     border-width: 1px;
 }
 .filter-button {
@@ -88,13 +87,19 @@ body {
 .btn:hover{
     background-color: #2449d1 !important;
 }
+
+small{
+    color: white !important;
+}
+
 /*cards*/
 .card {
     padding: 2rem;
     width: 20rem; 
     max-width: 350px; 
     height: 210px; 
-    border-radius: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.411) !important;
     background-color: #f0f0f0;
     display: flex;  
     align-items: center;

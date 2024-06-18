@@ -22,16 +22,18 @@
 
     <!--barra pesquisa-->
     <div class="container">
-        <div class="input-group search-bar">
-            <input type="text" class="form-control" placeholder="Pesquisar por...">
-                <div class="input-group-append">
-                    <span class="input-group-text"><img src="/assets/img/lupa (1).png"></span>
-                </div>
-            <button class="btn filter-button">
-                <small class="colorfilt">Filtrar</small>
-                <span> <img src="/assets/img/filtro.png"></img></span>
-             </button>
-        </div>
+        <form class="form-pesquisa-curso">
+            <div class="input-group search-bar d-flex gap-3">
+                <input type="search" class="form-control" id="input-pesquisa" placeholder="Pesquisar por...">
+                    <!-- <div class="input-group-append">
+                        <span class="input-group-text"><img src="/assets/img/lupa (1).png"></span>
+                    </div> -->
+                <button class="btn" type="submit">
+                    Pesquisar
+                </button>
+            </div>
+        </form>
+        
         <div class="row">
             <div class="col-md-12">
                 <div id="filtroOpcoes" style="display: none;">

@@ -29,7 +29,7 @@ function setCurso(curso){
     const div = document.createElement('div')
     div.innerHTML = 
     `
-        <div class="card d-flex flex-column flex-start border-dark mb-3" onclick="window.location.href='pagina-do-curso-1.html';" style="cursor: pointer;">
+        <div class="card d-flex flex-column flex-start mb-3" style="cursor: pointer;">
             <h5>
                 ${curso.nome}
             </h5>
@@ -92,3 +92,19 @@ heartButtons.forEach(button => {
         alert('Curso favoritado com sucesso!');
     });
 });
+
+const formPesquisa = document.querySelector('.form-pesquisa-curso')
+
+let cursosFiltados = []
+
+const inputPesquisa = document.querySelector('#input-pesquisa')
+
+formPesquisa.addEventListener('submit', (e) => {
+    e.preventDefault()
+    containerCursos.innerHTML = ''
+    cursosFiltados = cursos.filter((curso) => 
+      curso['nome'].toLowerCase().includes(inputPesquisa.value.toLowerCase())
+    )
+
+    cursosFiltados.forEach((curso) => setCurso(curso))
+})
