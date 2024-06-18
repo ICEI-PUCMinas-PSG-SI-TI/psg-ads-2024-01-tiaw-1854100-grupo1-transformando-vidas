@@ -99,3 +99,4 @@ const setVaga = (vaga) => {
 } 
 
 carregaVagas()
+

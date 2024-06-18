@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </p>
         </div>
 
-        <nav class="nav d-flex  justify-content-center gap-4">
+        <nav class="nav d-flex  justify-content-center gap-4 align-items-center">
             <div>
                 <a href="../../componentes/pagina-inicial/pagina_inicial.html?type=${typeLogin}&id=${idUser}" class="nav-item">Página Inicial</a>
             </div>
@@ -39,12 +39,19 @@ document.addEventListener('DOMContentLoaded', () => {
             <div>
                 <a href="" class="nav-item">Sobre nós</a>
             </div>
+
         </nav>
+
+        
 
         <a class="entrar btn d-flex justify-content-center align-items-center p-3 gap-1">
             Conta
         </a>
     `
+    const inputPesquisaPerfil = document.querySelector('#input-pesquisa-perfil')
+
+    const formPesquisaPerfil = document.querySelector('form')
+
     const btnConta = document.querySelector('.entrar')
 
     if (typeLogin == 'aluno'){
