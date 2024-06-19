@@ -3,15 +3,49 @@ document.addEventListener("DOMContentLoaded", function() {
     const urlProfessores = 'http://localhost:3000/professores'
     const urlParams = new URLSearchParams(window.location.search)
     const id = urlParams.get('id')
+    const type = urlParams.get('type')
+    const idProfile = urlParams.get('idProfile')
     const cardsContainer = document.getElementById('cards-container');
+
+    let userLogado
+
+    if (type == 'aluno'){
+        async function loadAlunos() {
+            const response = await axios.get(`http://localhost:3000/alunos/${id}`)
+
+            userLogado = response.data 
+        }
+
+        loadAlunos()
+    } else if (type == 'empresa'){
+        async function loadEmpresas() {
+            const response = await axios.get(`http://localhost:3000/empresas/${id}`)
+
+            userLogado = response.data 
+        }
+    } else {
+        async function loadProfessores() {
+            const response = await axios.get(`http://localhost:3000/professores/${id}`)
+
+            userLogado = response.data 
+        }
+    }
 
     let user
     let cursos
     console.log(id)
 
     async function loadUser() {
-       const response = await axios.get(`${urlProfessores}/${id}`)
-       user = response.data
+        if (!idProfile){
+            const response = await axios.get(`${urlProfessores}/${id}`)
+            user = response.data
+        } else if (id == idProfile){
+            const response = await axios.get(`${urlProfessores}/${id}`)
+            user = response.data
+        } else {
+            const response = await axios.get(`${urlProfessores}/${idProfile}`)
+            user = response.data
+        }
        cursos = user.cursos
        loadCursos()
        setDados(user)
@@ -47,7 +81,8 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         const div = document.createElement('div')
-        div.innerHTML = `
+        if (id != idProfile){
+            div.innerHTML = `
             <div class="foto-perfil">
                 <img src="../../assets/img/avatar-do-usuario.png" alt="foto de perfil">
                 <p><a href="edicao_de_professor.html?id=${id}">Editar Perfil</a></p>
@@ -71,6 +106,29 @@ document.addEventListener("DOMContentLoaded", function() {
                 
             </div>
             </div>`
+        } else {
+            div.innerHTML = `
+            <div class="foto-perfil">
+                <img src="../../assets/img/avatar-do-usuario.png" alt="foto de perfil">
+                <p><a href="edicao_de_professor.html?id=${id}">Editar Perfil</a></p>
+            </div>
+
+            <div class="perfil">
+                <h3>${obj.nome}</h3>
+                <p>Data de nascimento: ${obj.dia}/${obj.mes}/${obj.ano}</p>
+                <p>Sexo: ${obj.sexo}</p>
+                <p>Localidade: ${obj.local}</p>
+                <p class="desc">Descrição: ${obj.sobre}</p>
+
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalExemplo">
+                    
+                    Seguidores: ${obj.seguidores.length}
+                </button>
+                
+            </div>
+            </div>`
+        }
+        
         div.classList.add('container-dados-perfil')
         const sobre = document.createElement('div')
         sobre.innerHTML = `<div class="sobre-container">
@@ -108,5 +166,15 @@ document.addEventListener("DOMContentLoaded", function() {
             `;
             cardsContainer.appendChild(card);
         });
-    } 
+    }
+    
+    document.addEventListener('click', (e) => {
+        const element = e.target
+
+        if (element.classList.contains('seguir')){
+            user.seguidores.push(userLogado)
+
+            axios.put(`${urlProfessores}/${idProfile}`, user)
+        }
+    })
 });

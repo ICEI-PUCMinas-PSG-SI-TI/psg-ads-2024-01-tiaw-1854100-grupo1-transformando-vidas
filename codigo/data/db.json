@@ -218,6 +218,7 @@
       "sobre": "Dev de Software",
       "email": "smaia190500@gmail.com",
       "senha": "123",
+      "tipo": "aluno",
       "cursos": [
         {
           "id": 1717448943671,
@@ -280,6 +281,7 @@
       "email": "smaia9@outlook.com",
       "tempoAtuacao": "1500",
       "senha": "asasa",
+      "tipo": "professor",
       "descricao": "",
       "cursos": [
         {
@@ -327,6 +329,71 @@
           "salario": "1500",
           "senha": "Samuca1905!",
           "cursos": []
+        },
+        {
+          "id": "1",
+          "nome": "Samuel",
+          "dia": "19",
+          "mes": "05",
+          "ano": "2000",
+          "sexo": "Masculino",
+          "local": "Belo Horizonte",
+          "sobre": "Dev de Software",
+          "email": "smaia190500@gmail.com",
+          "senha": "123",
+          "tipo": "aluno",
+          "cursos": [
+            {
+              "id": 1717448943671,
+              "nome": "Curso Html completo",
+              "conteudo": "HTML",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você vai aprender a criar um site!"
+            },
+            {
+              "id": 1717448972851,
+              "nome": "Curso c#",
+              "conteudo": "C#",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você começara do zero no C#!"
+            },
+            {
+              "id": 1717449013254,
+              "nome": "Curso java",
+              "conteudo": "Java",
+              "link": "www.google.com",
+              "descricao": "Um curso completo de Java!"
+            },
+            {
+              "id": 1717449032273,
+              "nome": "Curso excel",
+              "conteudo": "Excel",
+              "link": "www.google.com",
+              "descricao": "Um começo incrivel no Excel!"
+            }
+          ],
+          "descricao": "Desenvolvedor de Software",
+          "seguidores": [
+            {
+              "id": "3e16",
+              "nome": "Samuel Maia de Oliveira",
+              "cpf": "16935206642",
+              "email": "smaia190500@gmail.com",
+              "salario": "1500",
+              "senha": "Samuca1905!",
+              "cursos": []
+            },
+            {
+              "id": "3e16",
+              "nome": "Samuel Maia de Oliveira",
+              "cpf": "16935206642",
+              "email": "smaia190500@gmail.com",
+              "salario": "1500",
+              "senha": "Samuca1905!",
+              "cursos": []
+            }
+          ],
+          "seguindo": []
         }
       ],
       "seguindo": []
@@ -344,6 +411,7 @@
       "ramo": "Tecnologia",
       "criacao": "2023",
       "senha": "123",
+      "tipo": "Empresa",
       "vagas": [
         {
           "id": "c941",
