@@ -23,12 +23,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
             userLogado = response.data 
         }
+
+        loadEmpresas()
     } else {
         async function loadProfessores() {
             const response = await axios.get(`http://localhost:3000/professores/${id}`)
 
             userLogado = response.data 
         }
+
+        loadProfessores(    )
     }
 
     let user

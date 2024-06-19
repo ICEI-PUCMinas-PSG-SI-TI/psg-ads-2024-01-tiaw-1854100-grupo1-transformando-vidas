@@ -57,9 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (typeLogin == 'aluno'){
         btnConta.setAttribute('href', `../perfil-aluno/perfil_aluno.html?${urlP}&idProfile=${urlP.get('id')}`)
     } else if (typeLogin == 'professor'){
-        btnConta.setAttribute('href', `../perfil-professor/perfil_prof.html?${urlP}&idProfile=${urlP.get('id')}`)
+        btnConta.setAttribute('href', `../perfil-professor/perfil_professor.html?${urlP}&idProfile=${urlP.get('id')}`)
     } else if (typeLogin == 'empresa'){
-        btnConta.setAttribute('href', `../perfil-empresa/perfil_emp.html?${urlP}&idProfile=${urlP.get('id')}`)
+        btnConta.setAttribute('href', `../perfil-empresa/perfil_empresa.html?${urlP}&idProfile=${urlP.get('id')}`)
     }
 
     const footer = document.querySelector('.footer')

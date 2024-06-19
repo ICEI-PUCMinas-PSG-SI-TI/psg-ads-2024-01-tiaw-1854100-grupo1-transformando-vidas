@@ -4,11 +4,39 @@ document.addEventListener("DOMContentLoaded", function() {
     const urlParams = new URLSearchParams(window.location.search)
     const id = urlParams.get('id')
     const idProfile = urlParams.get('idProfile')
+    const type = urlParams.get('type')
     const cardsContainer = document.getElementById('cards-container');
 
     let user
     let vagas
-    console.log(id)
+
+    let userLogado
+
+    if (type == 'aluno'){
+        async function loadAlunos() {
+            const response = await axios.get(`http://localhost:3000/alunos/${id}`)
+
+            userLogado = response.data 
+        }
+
+        loadAlunos()
+    } else if (type == 'empresa'){
+        async function loadEmpresas() {
+            const response = await axios.get(`http://localhost:3000/empresas/${id}`)
+
+            userLogado = response.data 
+        }
+
+        loadEmpresas()
+    } else {
+        async function loadProfessores() {
+            const response = await axios.get(`http://localhost:3000/professores/${id}`)
+
+            userLogado = response.data 
+        }
+
+        loadProfessores()
+    }
 
     async function loadUser() {
         if (!idProfile){
@@ -140,4 +168,14 @@ document.addEventListener("DOMContentLoaded", function() {
             cardsContainer.appendChild(card);
         });
     } 
+
+    document.addEventListener('click', (e) => {
+        const element = e.target
+
+        if (element.classList.contains('seguir')){
+            user.seguidores.push(userLogado)
+
+            axios.put(`${urlEmpresas}/${idProfile}`, user)
+        }
+    })
 });
