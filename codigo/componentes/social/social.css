@@ -1,0 +1,27 @@
+.form-pesquisa{
+    width: 30%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+}   
+
+.container-input-form{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn{
+    background-color: #3e66f2;
+    color: var(--cor-background);
+}
+
+.btn:hover{
+    background-color: #2449d1;
+    color: var(--cor-background);
+}
