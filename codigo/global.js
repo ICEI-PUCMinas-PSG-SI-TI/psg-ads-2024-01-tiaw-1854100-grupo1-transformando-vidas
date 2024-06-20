@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnConta = document.querySelector('.entrar')
 
     if (typeLogin == 'aluno'){
-        btnConta.setAttribute('href', `../perfil-aluno/perfil_aluno.html?${urlP}&idProfile=${urlP.get('id')}`)
+        btnConta.setAttribute('href', `../perfil-aluno/perfil_aluno.html?${urlP}`)
     } else if (typeLogin == 'professor'){
         btnConta.setAttribute('href', `../perfil-professor/perfil_professor.html?${urlP}&idProfile=${urlP.get('id')}`)
     } else if (typeLogin == 'empresa'){

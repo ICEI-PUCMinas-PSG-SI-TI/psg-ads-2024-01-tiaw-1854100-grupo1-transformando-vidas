@@ -29,7 +29,7 @@ este css sempre vira em segundo lugar.
 }
 
 .principal{
-    min-height: 72.9vh;
+    min-height: 74.9vh;
 }
 
 /* CSS do Header */
@@ -101,7 +101,7 @@ body {
   footer {
     background: linear-gradient(to right, #1232A4, #07133E);
     color: white;
-    padding: 20px;
+    height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1790,6 +1790,260 @@
             }
           ],
           "seguindo": []
+        },
+        {
+          "id": "1",
+          "nome": "Samuel",
+          "dia": "19",
+          "mes": "05",
+          "ano": "2000",
+          "sexo": "Masculino",
+          "local": "Belo Horizonte",
+          "sobre": "Dev de Software",
+          "email": "smaia190500@gmail.com",
+          "senha": "123",
+          "tipo": "aluno",
+          "cursos": [
+            {
+              "id": 1717448943671,
+              "nome": "Curso Html completo",
+              "conteudo": "HTML",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você vai aprender a criar um site!"
+            },
+            {
+              "id": 1717448972851,
+              "nome": "Curso c#",
+              "conteudo": "C#",
+              "link": "www.google.com",
+              "descricao": "Nesse curso você começara do zero no C#!"
+            },
+            {
+              "id": 1717449013254,
+              "nome": "Curso java",
+              "conteudo": "Java",
+              "link": "www.google.com",
+              "descricao": "Um curso completo de Java!"
+            },
+            {
+              "id": 1717449032273,
+              "nome": "Curso excel",
+              "conteudo": "Excel",
+              "link": "www.google.com",
+              "descricao": "Um começo incrivel no Excel!"
+            }
+          ],
+          "descricao": "Desenvolvedor de Software",
+          "seguidores": [
+            {
+              "id": "3e16",
+              "nome": "Samuel Maia de Oliveira",
+              "cpf": "16935206642",
+              "email": "smaia190500@gmail.com",
+              "salario": "1500",
+              "senha": "Samuca1905!",
+              "cursos": []
+            },
+            {
+              "id": "3e16",
+              "nome": "Samuel Maia de Oliveira",
+              "cpf": "16935206642",
+              "email": "smaia190500@gmail.com",
+              "salario": "1500",
+              "senha": "Samuca1905!",
+              "cursos": []
+            },
+            {
+              "id": "3",
+              "nome": "Samuel",
+              "cpf": "16935206642",
+              "email": "smaia9@outlook.com",
+              "tempoAtuacao": "1500",
+              "senha": "asasa",
+              "tipo": "professor",
+              "descricao": "",
+              "cursos": [
+                {
+                  "nome": "JavaScript Moderno",
+                  "descricao": "Aprenda JavaScript",
+                  "link": "https://www.youtube.com/watch?v=FdePtO5JSd0&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=6",
+                  "id": "08ab",
+                  "professor": "Fulano"
+                },
+                {
+                  "nome": "JavaScript avançado",
+                  "descricao": "Aprenda JavaScript",
+                  "id": "3696",
+                  "professor": "Fulano"
+                },
+                {
+                  "nome": "HTML e CSS",
+                  "descricao": "JavaScript",
+                  "link": "https://www.youtube.com/watch?v=FdePtO5JSd0&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=6",
+                  "id": "7dd6",
+                  "professor": "Fulano"
+                },
+                {
+                  "nome": "React",
+                  "descricao": "Aprenda JavaScript",
+                  "id": "89fc",
+                  "professor": "Fulano"
+                }
+              ],
+              "seguidores": [
+                {
+                  "id": "3e16",
+                  "nome": "Samuel Maia de Oliveira",
+                  "cpf": "16935206642",
+                  "email": "smaia190500@gmail.com",
+                  "salario": "1500",
+                  "senha": "Samuca1905!",
+                  "cursos": []
+                },
+                {
+                  "id": "3e16",
+                  "nome": "Samuel Maia de Oliveira",
+                  "cpf": "16935206642",
+                  "email": "smaia190500@gmail.com",
+                  "salario": "1500",
+                  "senha": "Samuca1905!",
+                  "cursos": []
+                },
+                {
+                  "id": "1",
+                  "nome": "Samuel",
+                  "dia": "19",
+                  "mes": "05",
+                  "ano": "2000",
+                  "sexo": "Masculino",
+                  "local": "Belo Horizonte",
+                  "sobre": "Dev de Software",
+                  "email": "smaia190500@gmail.com",
+                  "senha": "123",
+                  "tipo": "aluno",
+                  "cursos": [
+                    {
+                      "id": 1717448943671,
+                      "nome": "Curso Html completo",
+                      "conteudo": "HTML",
+                      "link": "www.google.com",
+                      "descricao": "Nesse curso você vai aprender a criar um site!"
+                    },
+                    {
+                      "id": 1717448972851,
+                      "nome": "Curso c#",
+                      "conteudo": "C#",
+                      "link": "www.google.com",
+                      "descricao": "Nesse curso você começara do zero no C#!"
+                    },
+                    {
+                      "id": 1717449013254,
+                      "nome": "Curso java",
+                      "conteudo": "Java",
+                      "link": "www.google.com",
+                      "descricao": "Um curso completo de Java!"
+                    },
+                    {
+                      "id": 1717449032273,
+                      "nome": "Curso excel",
+                      "conteudo": "Excel",
+                      "link": "www.google.com",
+                      "descricao": "Um começo incrivel no Excel!"
+                    }
+                  ],
+                  "descricao": "Desenvolvedor de Software",
+                  "seguidores": [
+                    {
+                      "id": "3e16",
+                      "nome": "Samuel Maia de Oliveira",
+                      "cpf": "16935206642",
+                      "email": "smaia190500@gmail.com",
+                      "salario": "1500",
+                      "senha": "Samuca1905!",
+                      "cursos": []
+                    },
+                    {
+                      "id": "3e16",
+                      "nome": "Samuel Maia de Oliveira",
+                      "cpf": "16935206642",
+                      "email": "smaia190500@gmail.com",
+                      "salario": "1500",
+                      "senha": "Samuca1905!",
+                      "cursos": []
+                    }
+                  ],
+                  "seguindo": []
+                },
+                {
+                  "id": "1",
+                  "nome": "Samuel",
+                  "dia": "19",
+                  "mes": "05",
+                  "ano": "2000",
+                  "sexo": "Masculino",
+                  "local": "Belo Horizonte",
+                  "sobre": "Dev de Software",
+                  "email": "smaia190500@gmail.com",
+                  "senha": "123",
+                  "tipo": "aluno",
+                  "cursos": [
+                    {
+                      "id": 1717448943671,
+                      "nome": "Curso Html completo",
+                      "conteudo": "HTML",
+                      "link": "www.google.com",
+                      "descricao": "Nesse curso você vai aprender a criar um site!"
+                    },
+                    {
+                      "id": 1717448972851,
+                      "nome": "Curso c#",
+                      "conteudo": "C#",
+                      "link": "www.google.com",
+                      "descricao": "Nesse curso você começara do zero no C#!"
+                    },
+                    {
+                      "id": 1717449013254,
+                      "nome": "Curso java",
+                      "conteudo": "Java",
+                      "link": "www.google.com",
+                      "descricao": "Um curso completo de Java!"
+                    },
+                    {
+                      "id": 1717449032273,
+                      "nome": "Curso excel",
+                      "conteudo": "Excel",
+                      "link": "www.google.com",
+                      "descricao": "Um começo incrivel no Excel!"
+                    }
+                  ],
+                  "descricao": "Desenvolvedor de Software",
+                  "seguidores": [
+                    {
+                      "id": "3e16",
+                      "nome": "Samuel Maia de Oliveira",
+                      "cpf": "16935206642",
+                      "email": "smaia190500@gmail.com",
+                      "salario": "1500",
+                      "senha": "Samuca1905!",
+                      "cursos": []
+                    },
+                    {
+                      "id": "3e16",
+                      "nome": "Samuel Maia de Oliveira",
+                      "cpf": "16935206642",
+                      "email": "smaia190500@gmail.com",
+                      "salario": "1500",
+                      "senha": "Samuca1905!",
+                      "cursos": []
+                    }
+                  ],
+                  "seguindo": []
+                }
+              ],
+              "seguindo": []
+            }
+          ],
+          "seguindo": []
         }
       ],
       "seguindo": []
