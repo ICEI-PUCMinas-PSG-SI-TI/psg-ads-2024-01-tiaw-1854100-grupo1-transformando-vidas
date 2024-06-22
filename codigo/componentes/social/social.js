@@ -7,6 +7,8 @@ const urlAlunos = 'http://localhost:3000/alunos'
 const urlProfessores = 'http://localhost:3000/professores'
 const urlEmpresas = 'http://localhost:3000/empresas'
 
+const container = document.querySelector('.container-perfis')
+
 let profiles = []
 
 async function loadProfiles(){
@@ -21,8 +23,6 @@ async function loadProfiles(){
     profiles = profiles.concat(alunos.concat(professores.concat(empresas)))
 
     console.log(profiles)
-
-    const container = document.querySelector('.container-perfis')
 
     profiles.forEach((profile) => {
         console.log(profile.type)
@@ -40,3 +40,28 @@ async function loadProfiles(){
 }
 
 loadProfiles()
+
+const pesquisaForm = document.querySelector('.form-pesquisa')
+
+const pesquisaInput = document.querySelector('#input-pesquisa')
+
+pesquisaForm.addEventListener('submit', (e) => {
+    e.preventDefault()
+
+    container.innerHTML = ''
+
+    const filterProfiles = profiles.filter((profile) => profile['nome'].toLowerCase().includes(pesquisaInput.value.toLowerCase()))
+
+    filterProfiles.forEach((profile) => {
+        container.innerHTML += 
+        `
+            <a href="../perfil-${profile['tipo']}/perfil_${profile['tipo']}.html?${urlParam}&idProfile=${profile.id}" class="link-para-perfil">
+                <div class="container-perfil">
+                    <h5>${profile.nome}</h5>
+                    <p>Perfil: ${profile.tipo}</p>
+                    <p class="desc-perfil">Descrição: ${profile.desc || ''}</p>
+                </div>
+            </a>
+        `
+    })
+})
