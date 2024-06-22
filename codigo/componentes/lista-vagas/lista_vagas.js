@@ -35,15 +35,14 @@ const carregaVagas = async () => {
 
 let vagasFiltradas = []
 
-btnSubmit.addEventListener('click', (e) => {
-    e.preventDefault()
+inputPesquisa.oninput = () => {
     containerVagas.innerHTML = ''
     vagasFiltradas = vagas.filter((vaga) => 
       vaga['titulo'].toLowerCase().includes(inputPesquisa.value.toLowerCase())
     )
 
     vagasFiltradas.forEach((vaga) => setVaga(vaga))
-})
+}
 
 const btnAcesso = () => {
   const btn = document.createElement('a')

@@ -204,6 +204,18 @@
           "seguindo": []
         }
       ]
+    },
+    {
+      "id": "af01",
+      "titulo": "a",
+      "descricao": "b",
+      "jornada": "c",
+      "requisitos": "e",
+      "desejavel": "f",
+      "salario": "g",
+      "regime": "Remoto",
+      "empresa": "Teste vaga 1",
+      "candidatos": []
     }
   ],
   "alunos": [
@@ -1025,6 +1037,17 @@
           "salario": "1500",
           "regime": "Remoto",
           "empresa": "Minha empresa",
+          "candidatos": []
+        },
+        {
+          "titulo": "a",
+          "descricao": "b",
+          "jornada": "c",
+          "requisitos": "e",
+          "desejavel": "f",
+          "salario": "g",
+          "regime": "Remoto",
+          "empresa": "Teste vaga 1",
           "candidatos": []
         }
       ],
