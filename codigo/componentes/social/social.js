@@ -45,9 +45,7 @@ const pesquisaForm = document.querySelector('.form-pesquisa')
 
 const pesquisaInput = document.querySelector('#input-pesquisa')
 
-pesquisaForm.addEventListener('submit', (e) => {
-    e.preventDefault()
-
+pesquisaForm.oninput = () => {
     container.innerHTML = ''
 
     const filterProfiles = profiles.filter((profile) => profile['nome'].toLowerCase().includes(pesquisaInput.value.toLowerCase()))
@@ -64,4 +62,4 @@ pesquisaForm.addEventListener('submit', (e) => {
             </a>
         `
     })
-})
+}
