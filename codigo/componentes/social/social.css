@@ -1,5 +1,5 @@
 .form-pesquisa{
-    width: 30%;
+    width: 60%;
     margin: 3rem auto;
     display: flex;
     flex-direction: column;
@@ -51,4 +51,23 @@
 .link-para-perfil{
     text-decoration: none;
     color: var(--cor-titulo)
+}
+
+
+@media (max-width: 1000px){
+    .form-pesquisa{
+        width: 60%;
+        margin: 3rem auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 520px){
+    .form-pesquisa{
+        width: 80%;
+        margin: 3rem auto;
+        display: flex;
+        flex-direction: column;
+    }
 }

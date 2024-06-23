@@ -28,6 +28,12 @@ este css sempre vira em segundo lugar.
     --fonte-texto: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .principal{
     min-height: 74.9vh;
 }
@@ -94,11 +100,12 @@ body {
     margin: 0;
   }
   
-  main {
-    flex: 1;
-  }
   
   footer {
+    position: relative;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background: linear-gradient(to right, #1232A4, #07133E);
     color: white;
     height: 5vh;
@@ -106,4 +113,18 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 70px;
+  }
+
+
+
+  @media (max-width: 660px){
+    .logo-texto{
+        display: none;
+    }
+  }
+
+  @media (max-width: 400px){
+    footer{
+        width: 100vw;
+    }
   }

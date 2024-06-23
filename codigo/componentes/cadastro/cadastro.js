@@ -83,6 +83,7 @@ function criarAluno(){
         email:a_email.value,
         salario: renda.value ,
         senha:a_senha.value,
+        tipo: 'Aluno',
         cursos: [],
         seguidores: [],
         seguindo: []
@@ -98,6 +99,7 @@ function criaProfessor(){
         email:a_email.value,
         tempoAtuacao: renda.value ,
         senha:a_senha.value,
+        tipo: 'Professor',
         descricao:"",
         cursos: [],
         seguidores: [],
@@ -113,6 +115,7 @@ function criaEmpresa(){
         email:a_email.value,
         areaProjetos: renda.value ,
         senha:a_senha.value,
+        tipo: 'Empresa',
         vagas: [],
         seguidores: [],
         seguindo: []
@@ -135,18 +138,18 @@ bot.addEventListener("click", (e) => {
     if (stat==0){
         let aluno = criarAluno()
         axios.post(url_aluno,aluno)
-        location.href = `login.html`
+        location.href = `../login/login.html`
     }
 
     else if(stat == 1){
         let professor = criaProfessor()
         axios.post(url_professor,professor)
-        location.href = `login.html`
+        location.href = `../login/login.html`
     }
     else if(stat == 2){
         let empresa = criaEmpresa()
         axios.post(url_empresa,empresa)
-        location.href = 'login.html'
+        location.href = '../login/login.html'
     }
 })
 
