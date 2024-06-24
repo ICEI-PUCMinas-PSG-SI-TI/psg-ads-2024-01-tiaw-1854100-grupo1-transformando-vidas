@@ -5,6 +5,10 @@
 //Ps: o JS dessa pagina só e "valido" para o uploadvideos.html, os outros respectivos JS estão no final dos outros html
 document.getElementById('btnenvio').addEventListener('click', function(e) {
     e.preventDefault();
+
+    const urlP = new URLSearchParams(window.location.search)
+
+    const id = urlP.get('id')
     
     let nome = document.getElementById('idnome').value;
     let conteudo = document.getElementById('idlang').value;
@@ -30,8 +34,6 @@ document.getElementById('btnenvio').addEventListener('click', function(e) {
             body: JSON.stringify(curso)
         })
 
-        console.log(response)
-
         if (!response.ok){
             alert('Falha ao criar curso!')
             return
@@ -44,6 +46,17 @@ document.getElementById('btnenvio').addEventListener('click', function(e) {
 
     enviar()
     
+    let professor
+
+    async function loadProfessor(){
+        const response = axios.get(`${urlProfessores}/${id}`)
+
+        professor = response.data
+
+        console.log(professor)
+    }
+
+    loadProfessor()
 }
 else {
     alert('Formulario incorreto! (confira se o link informado é valido e se todos os campos foram preenchidos)');

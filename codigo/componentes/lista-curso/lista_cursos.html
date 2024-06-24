@@ -21,90 +21,92 @@
     </header>
 
     <!--barra pesquisa-->
-    <div class="container">
-        <form class="form-pesquisa-curso">
-            <div class="input-group search-bar d-flex gap-3">
-                <input type="search" class="form-control" id="input-pesquisa" placeholder="Pesquisar por...">
-                    <!-- <div class="input-group-append">
-                        <span class="input-group-text"><img src="/assets/img/lupa (1).png"></span>
-                    </div> -->
-                <button class="btn" type="submit">
-                    Pesquisar
-                </button>
-            </div>
-        </form>
+    <main class="principal">
+        <div class="container">
+            <form class="form-pesquisa-curso">
+                <div class="input-group search-bar d-flex gap-3">
+                    <input type="search" class="form-control" id="input-pesquisa" placeholder="Pesquisar por...">
+                        <!-- <div class="input-group-append">
+                            <span class="input-group-text"><img src="/assets/img/lupa (1).png"></span>
+                        </div> -->
+                    <div class="container-buttons">
+                        <button class="btn-pesquisar btn" type="submit">
+                            Pesquisar
+                        </button>
+                        <a class="btn btn-success btn-criar-curso" style="display: none;">
+                            Criar
+                        </a>
+                    </div>
+                </div>
+            </form>
         
-        <div class="row">
-            <div class="col-md-12">
-                <div id="filtroOpcoes" style="display: none;">
-                    <label for="tipoLinguagem">Filtrar por dificuldade:</label>
-                    <select id="tipoLinguagem">
-                        <option value="todos">Todos</option>
-                        <option value="iniciante">Iniciante</option>
-                        <option value="intermediario">Intermediário</option>
-                    </select>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="filtroOpcoes" style="display: none;">
+                        <label for="tipoLinguagem">Filtrar por dificuldade:</label>
+                        <select id="tipoLinguagem">
+                            <option value="todos">Todos</option>
+                            <option value="iniciante">Iniciante</option>
+                            <option value="intermediario">Intermediário</option>
+                        </select>
+                    </div>
                 </div>
             </div>
+        <!--cursos-->
         </div>
-
-
-    <!--cursos-->
-    </div>
-       
-        <p clas="text-aligncur"> 
-    <!-- <div>
-        <aside style="margin-left: 20px; text-align: center; margin-bottom: 10px;">
-            <a class="colorcourse">Cursos disponíveis</a> 
-        </aside>
-    </div> -->
-    
-    </div>
-
-   
-    <div class="container container-cursos">
         
-    </div>
+            <p clas="text-aligncur">
+        <!-- <div>
+            <aside style="margin-left: 20px; text-align: center; margin-bottom: 10px;">
+                <a class="colorcourse">Cursos disponíveis</a>
+            </aside>
+        </div> -->
         
-    <div class="container additional-courses" style="display: none;">
-    <div class="col-md-4">
-    <div class="card border-dark mb-3">
-    <button class="heart-button">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-    </svg>
-    </button>
-    </div>
-    </div>
-    </div>
+        </div>
+        <div class="container-fluid container-cursos">
         
-    <div class="container additional-courses" style="display: none;">
-    <div class="col-md-4">
-    <div class="card border-dark mb-3">
-    <button class="heart-button">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-    </svg>
-    </button>
-    </div>
-    </div>
-    </div>
+        </div>
         
-    <div class="courses-wrapper" style="display: none;">
-    <div class="grid">
-    <div class="grid-item">
-    <div class="card border-dark mb-3">
-    <button class="heart-button">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-    </svg>
-    </button>
-    </div>
-    </div>
-    </div>
-
+        <div class="container additional-courses" style="display: none;">
+        <div class="col-md-4">
+        <div class="card border-dark mb-3">
+        <button class="heart-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+        </button>
+        </div>
+        </div>
+        </div>
         
-    </div>
-    </div>
+        <div class="container additional-courses" style="display: none;">
+        <div class="col-md-4">
+        <div class="card border-dark mb-3">
+        <button class="heart-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+        </button>
+        </div>
+        </div>
+        </div>
+        
+        <div class="courses-wrapper" style="display: none;">
+        <div class="grid">
+        <div class="grid-item">
+        <div class="card border-dark mb-3">
+        <button class="heart-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+        </button>
+        </div>
+        </div>
+        </div>
+        
+        </div>
+        </div>
+    </main>
     
 
     <!--footer-->

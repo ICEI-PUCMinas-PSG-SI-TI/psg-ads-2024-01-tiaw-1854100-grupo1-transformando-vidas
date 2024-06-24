@@ -35,7 +35,7 @@ este css sempre vira em segundo lugar.
 }
 
 .principal{
-    min-height: 74.9vh;
+    padding-bottom: 5vh;
 }
 
 /* CSS do Header */

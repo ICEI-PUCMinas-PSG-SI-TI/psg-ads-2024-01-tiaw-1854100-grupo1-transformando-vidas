@@ -1,8 +1,11 @@
 const urlCursos = 'http://localhost:3000/cursos'
 const urlAlunos = 'http://localhost:3000/alunos'
+const urlEmpresas = 'http://localhost:3000/empresas'
+const urlProfessores = 'http://localhost:3000/professores'
 const containerCursos = document.querySelector('.container-cursos')
 const urlParams = new URLSearchParams(window.location.search)
-const idAluno = urlParams.get('id')
+
+const type = urlParams.get('type')
 
 let cursos
 async function loadCursos(){
@@ -17,25 +20,58 @@ async function loadCursos(){
 loadCursos()
 
 let aluno
-async function setAluno(){
-    const response = await axios.get(`${urlAlunos}/${idAluno}`)
-    aluno = response.data
-    console.log(aluno)
+let professor 
+let empresa
+if (type == 'aluno'){
+    const idAluno = urlParams.get('id')
+
+    async function setAluno(){
+        const response = await axios.get(`${urlAlunos}/${idAluno}`)
+        aluno = response.data
+        console.log(aluno)
+    }
+    
+    setAluno()
+} else if (type == 'professor'){
+    const btnCriarCurso = document.querySelector('.btn-criar-curso')
+
+    btnCriarCurso.style.display = 'inline-block'
+
+    btnCriarCurso.setAttribute('href', `../upload-videos/upload_videos.html?${urlParams}`)
+
+    const idProf = urlParams.get('id')
+
+    async function setProf(){
+        const response = await axios.get(`${urlProfessores}/${idProf}`)
+        professor = response.data
+        console.log(professor)
+    }
+    
+    setProf()
+} else {
+    const idEmp = urlParams.get('id')
+
+    async function setEmp(){
+        const response = await axios.get(`${urlEmpresas}/${idEmp}`)
+        empresa = response.data
+        console.log(empresa)
+    }
+    
+    setEmp()
 }
 
-setAluno()
 
 function setCurso(curso){
     const div = document.createElement('div')
     div.innerHTML = 
     `
         <div class="card d-flex flex-column flex-start mb-3" style="cursor: pointer;">
-            <h5>
+            <h5 class="mb-3">
                 ${curso.nome}
             </h5>
             <div className="info">
-                <p>
-                    ${curso.descricao}
+                <p class="desc">
+                    Descrição: ${curso.descricao}
                 </p>
                 <p class="professor">
                     Professor: ${curso.professor}
@@ -49,23 +85,7 @@ function setCurso(curso){
         </div>
     `
     containerCursos.appendChild(div)
-    console.log(div)
 }
-
-
-/*botão filtrar*/
-document.addEventListener('DOMContentLoaded', function() {
-    const filterButton = document.querySelector('.filter-button');
-    const filtroOpcoes = document.getElementById('filtroOpcoes');
-
-    filterButton.addEventListener('click', function() {
-        if (filtroOpcoes.style.display === 'none' || filtroOpcoes.style.display === '') {
-            filtroOpcoes.style.display = 'block';
-        } else {
-            filtroOpcoes.style.display = 'none';
-        }
-    });
-});
 
 /*react heart*/
 function showAdditionalCourses() {

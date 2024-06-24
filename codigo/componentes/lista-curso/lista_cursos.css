@@ -78,14 +78,25 @@ body {
     gap: 2.3rem;
 }
 
-.btn{
+.btn-pesquisar, .btn-acessar{
     background-color: #3e66f2 !important;
     color: var(--cor-background) !important;
     border: transparent !important;
 }
 
+
 .btn:hover{
     background-color: #2449d1 !important;
+}
+
+.btn-criar-curso{
+    background-color: #19965c !important;
+    border-color: transparent !important;
+    color: white !important;
+}
+
+.btn-criar-curso:hover{
+    background-color: #157347 !important;
 }
 
 small{
@@ -95,8 +106,8 @@ small{
 /*cards*/
 .card {
     padding: 2rem;
-    width: 20rem; 
-    max-width: 350px; 
+    width: 25rem; 
+    /* max-width: 350px;  */
     height: 210px; 
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.411) !important;
@@ -112,7 +123,7 @@ small{
     display: flex;
 }
 
-.professor{
+.professor, .desc{
     color: #615d5d;
 }
 
@@ -163,6 +174,11 @@ small{
     left: 0;
     transition: width 0.3s;
 }
+
+.card{
+    overflow: hidden;
+}
+
 .nav-link:hover::after,
 .cursos::after {
     width: 100%;
