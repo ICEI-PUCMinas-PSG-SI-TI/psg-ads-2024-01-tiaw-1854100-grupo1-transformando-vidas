@@ -172,29 +172,44 @@
   "alunos": [
     {
       "id": "813e",
-      "nome": "Samuel Maia de Oliveira",
-      "cpf": "16935206642",
-      "email": "smaia190500@gmail.com",
-      "salario": "1500",
+      "nome": "Samuel Estevão",
+      "cpf": "123456789",
+      "email": "samuel@gmail.com",
+      "salario": "30000",
       "senha": "123",
       "tipo": "Aluno",
       "cursos": [],
       "seguidores": [
         {
-          "id": "f6b0",
-          "nome": "Samuel Estevão",
-          "cpf": "123456789",
-          "email": "samuel@gmail.com",
-          "salario": "30000",
+          "id": "813e",
+          "nome": "Samuel Maia de Oliveira",
+          "cpf": "16935206642",
+          "email": "smaia190500@gmail.com",
+          "salario": "1500",
           "senha": "123",
           "tipo": "Aluno",
           "cursos": [],
-          "seguidores": [],
-          "seguindo": []
+          "seguidores": [
+            {
+              "id": "f6b0",
+              "nome": "Samuel Estevão",
+              "cpf": "123456789",
+              "email": "samuel@gmail.com",
+              "salario": "30000",
+              "senha": "123",
+              "tipo": "Aluno",
+              "cursos": [],
+              "seguidores": [],
+              "seguindo": []
+            }
+          ],
+          "seguindo": [],
+          "candidaturas": [],
+          "sobre": "Desenvolvedor de Software"
         }
       ],
       "seguindo": [],
-      "candidaturas": []
+      "sobre": "Samuel feiosao"
     },
     {
       "id": "f6b0",
@@ -205,7 +220,35 @@
       "senha": "123",
       "tipo": "Aluno",
       "cursos": [],
-      "seguidores": [],
+      "seguidores": [
+        {
+          "id": "813e",
+          "nome": "Samuel Maia de Oliveira",
+          "cpf": "16935206642",
+          "email": "smaia190500@gmail.com",
+          "salario": "1500",
+          "senha": "123",
+          "tipo": "Aluno",
+          "cursos": [],
+          "seguidores": [
+            {
+              "id": "f6b0",
+              "nome": "Samuel Estevão",
+              "cpf": "123456789",
+              "email": "samuel@gmail.com",
+              "salario": "30000",
+              "senha": "123",
+              "tipo": "Aluno",
+              "cursos": [],
+              "seguidores": [],
+              "seguindo": []
+            }
+          ],
+          "seguindo": [],
+          "candidaturas": [],
+          "sobre": "Desenvolvedor de Software"
+        }
+      ],
       "seguindo": []
     }
   ],
@@ -266,133 +309,13 @@
   ],
   "cursos": [
     {
-      "id": "762c",
+      "id": "f5e8",
+      "professor": "Maria Luiza Ribeiro Ruas",
       "nome": "Curso de HTML e CSS",
       "conteudo": "HTML",
       "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "0172",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "c4cd",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "f01b",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "651f",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "28d7",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "d24a",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "5d05",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "214a",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "4cab",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "d0de",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "6a6d",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "8319",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "caac",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "e6ac",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "440a",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "931e",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
-    },
-    {
-      "id": "f0a5",
-      "nome": "Curso de HTML e CSS",
-      "conteudo": "HTML",
-      "link": "https://youtube.com",
-      "descricao": ""
+      "descricao": "Introdução aos conceitos de html5 e css3 + práticas"
     }
   ],
-  "usuarios": [
-    
-  ]
+  "usuarios": []
 }

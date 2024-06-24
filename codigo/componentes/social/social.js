@@ -32,7 +32,7 @@ async function loadProfiles(){
                 <div class="container-perfil">
                     <h5>${profile.nome}</h5>
                     <p>Perfil: ${profile.tipo}</p>
-                    <p class="desc-perfil">Descrição: ${profile.desc || ''}</p>
+                    <p class="desc-perfil">Descrição: ${profile.sobre || ''}</p>
                 </div>
             </a>
         `

@@ -93,9 +93,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
             <div class="perfil">
                 <h3>${obj.nome}</h3>
-                <p>Data de nascimento: ${obj.dia}/${obj.mes}/${obj.ano}</p>
-                <p>Localidade: ${obj.local}</p>
-                <p class="desc">Descrição: ${obj.sobre}</p>
+                <p>Data de nascimento: ${obj.data_nascimento || ''}</p>
+                <p>Localidade: ${obj.localidade || ''}</p>
+                <p class="desc">Descrição: ${obj.sobre || 'Ainda não há descrição'}</p>
                 <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalExemplo">
                     
                     Seguidores: ${obj.seguidores.length}
