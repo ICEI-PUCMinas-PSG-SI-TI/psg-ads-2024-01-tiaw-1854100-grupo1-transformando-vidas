@@ -11,6 +11,162 @@
       "regime": "Remoto",
       "empresa": "Tecnologia Ltda.",
       "candidatos": []
+    },
+    {
+      "id": "a793",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolver interfaces interativas para os usuários",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "Conhecimentos em Vue,js",
+      "salario": "1300",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "a793",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolver interfaces interativas para os usuários",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "Conhecimentos em Vue,js",
+      "salario": "1300",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "a793",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolver interfaces interativas para os usuários",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "Conhecimentos em Vue,js",
+      "salario": "1300",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "a793",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolver interfaces interativas para os usuários",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "Conhecimentos em Vue,js",
+      "salario": "1300",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "a793",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolver interfaces interativas para os usuários",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "Conhecimentos em Vue,js",
+      "salario": "1300",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "a793",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolver interfaces interativas para os usuários",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "Conhecimentos em Vue,js",
+      "salario": "1300",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "a793",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolver interfaces interativas para os usuários",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "Conhecimentos em Vue,js",
+      "salario": "1300",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "a793",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolver interfaces interativas para os usuários",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "Conhecimentos em Vue,js",
+      "salario": "1300",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "a793",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolver interfaces interativas para os usuários",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "Conhecimentos em Vue,js",
+      "salario": "1300",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "a793",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolver interfaces interativas para os usuários",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "Conhecimentos em Vue,js",
+      "salario": "1300",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "a793",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolver interfaces interativas para os usuários",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "Conhecimentos em Vue,js",
+      "salario": "1300",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "a793",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolver interfaces interativas para os usuários",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "Conhecimentos em Vue,js",
+      "salario": "1300",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "a793",
+      "titulo": "Desenvolvedor Front-end Júnior",
+      "descricao": "Desenvolver interfaces interativas para os usuários",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "Conhecimentos em Vue,js",
+      "salario": "1300",
+      "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
     }
   ],
   "alunos": [
@@ -23,9 +179,34 @@
       "senha": "123",
       "tipo": "Aluno",
       "cursos": [],
-      "seguidores": [],
+      "seguidores": [
+        {
+          "id": "f6b0",
+          "nome": "Samuel Estevão",
+          "cpf": "123456789",
+          "email": "samuel@gmail.com",
+          "salario": "30000",
+          "senha": "123",
+          "tipo": "Aluno",
+          "cursos": [],
+          "seguidores": [],
+          "seguindo": []
+        }
+      ],
       "seguindo": [],
       "candidaturas": []
+    },
+    {
+      "id": "f6b0",
+      "nome": "Samuel Estevão",
+      "cpf": "123456789",
+      "email": "samuel@gmail.com",
+      "salario": "30000",
+      "senha": "123",
+      "tipo": "Aluno",
+      "cursos": [],
+      "seguidores": [],
+      "seguindo": []
     }
   ],
   "professores": [
