@@ -152,16 +152,3 @@ bot.addEventListener("click", (e) => {
         location.href = '../login/login.html'
     }
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
