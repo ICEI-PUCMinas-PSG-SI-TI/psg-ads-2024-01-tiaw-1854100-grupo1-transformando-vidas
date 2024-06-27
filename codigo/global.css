@@ -24,8 +24,8 @@ este css sempre vira em segundo lugar.
  :root{
     --cor-texto: #13182A; 
     --cor-background: #F8FAEC;
-    --fonte-header: 'Inter', Arial, Helvetica, sans-serif;
-    --fonte-texto: 'Poppins', Arial, Helvetica, sans-serif;
+    --fonte-header: 'Poppins', Arial, Helvetica, sans-serif;
+    --fonte-texto: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 *{
@@ -98,6 +98,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    font-family: var(--fonte-texto)
   }
   
   

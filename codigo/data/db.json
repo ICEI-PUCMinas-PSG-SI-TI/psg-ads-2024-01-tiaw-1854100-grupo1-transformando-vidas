@@ -178,7 +178,16 @@
       "salario": "30000",
       "senha": "123",
       "tipo": "Aluno",
-      "cursos": [],
+      "cursos": [
+        {
+          "id": "f5e8",
+          "professor": "Maria Luiza Ribeiro Ruas",
+          "nome": "Curso de HTML e CSS",
+          "conteudo": "HTML",
+          "link": "https://youtube.com",
+          "descricao": "Introdução aos conceitos de html5 e css3 + práticas"
+        }
+      ],
       "seguidores": [
         {
           "id": "813e",
@@ -275,6 +284,47 @@
           "cursos": [],
           "seguidores": [],
           "seguindo": []
+        },
+        {
+          "id": "813e",
+          "nome": "Samuel Estevão",
+          "cpf": "123456789",
+          "email": "samuel@gmail.com",
+          "salario": "30000",
+          "senha": "123",
+          "tipo": "Aluno",
+          "cursos": [],
+          "seguidores": [
+            {
+              "id": "813e",
+              "nome": "Samuel Maia de Oliveira",
+              "cpf": "16935206642",
+              "email": "smaia190500@gmail.com",
+              "salario": "1500",
+              "senha": "123",
+              "tipo": "Aluno",
+              "cursos": [],
+              "seguidores": [
+                {
+                  "id": "f6b0",
+                  "nome": "Samuel Estevão",
+                  "cpf": "123456789",
+                  "email": "samuel@gmail.com",
+                  "salario": "30000",
+                  "senha": "123",
+                  "tipo": "Aluno",
+                  "cursos": [],
+                  "seguidores": [],
+                  "seguindo": []
+                }
+              ],
+              "seguindo": [],
+              "candidaturas": [],
+              "sobre": "Desenvolvedor de Software"
+            }
+          ],
+          "seguindo": [],
+          "sobre": "Samuel feiosao"
         }
       ],
       "seguindo": []

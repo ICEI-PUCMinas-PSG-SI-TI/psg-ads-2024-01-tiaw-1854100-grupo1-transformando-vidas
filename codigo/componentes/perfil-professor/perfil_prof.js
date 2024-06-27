@@ -94,8 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             <div class="perfil">
                 <h3>${obj.nome}</h3>
-                <p>Data de nascimento: ${obj.dia}/${obj.mes}/${obj.ano}</p>
-                <p>Sexo: ${obj.sexo}</p>
+                <p>Data de nascimento: ${obj.data_nascimento || ''}</p>
                 <p>Localidade: ${obj.local}</p>
                 <p class="desc">Descrição: ${obj.sobre}</p>
 
