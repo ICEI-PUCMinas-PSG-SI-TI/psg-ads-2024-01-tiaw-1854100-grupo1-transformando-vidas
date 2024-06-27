@@ -7,3 +7,16 @@
     width: calc(33.33% - 20px); 
     margin-right: 20px;  
 }
+
+.seguir{
+    color: #007bff;
+    border: none;
+    display: block;
+    background-color: transparent;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+.seguir:hover{
+    text-decoration: underline;
+}

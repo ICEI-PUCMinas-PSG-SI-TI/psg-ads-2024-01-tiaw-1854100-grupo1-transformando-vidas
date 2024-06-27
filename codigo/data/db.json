@@ -215,10 +215,60 @@
           "seguindo": [],
           "candidaturas": [],
           "sobre": "Desenvolvedor de Software"
+        },
+        {
+          "id": "813e",
+          "nome": "Samuel Estevão",
+          "cpf": "123456789",
+          "email": "samuel@gmail.com",
+          "salario": "30000",
+          "senha": "123",
+          "tipo": "Aluno",
+          "cursos": [
+            {
+              "id": "f5e8",
+              "professor": "Maria Luiza Ribeiro Ruas",
+              "nome": "Curso de HTML e CSS",
+              "conteudo": "HTML",
+              "link": "https://youtube.com",
+              "descricao": "Introdução aos conceitos de html5 e css3 + práticas"
+            }
+          ],
+          "seguidores": [
+            {
+              "id": "813e",
+              "nome": "Samuel Maia de Oliveira",
+              "cpf": "16935206642",
+              "email": "smaia190500@gmail.com",
+              "salario": "1500",
+              "senha": "123",
+              "tipo": "Aluno",
+              "cursos": [],
+              "seguidores": [
+                {
+                  "id": "f6b0",
+                  "nome": "Samuel Estevão",
+                  "cpf": "123456789",
+                  "email": "samuel@gmail.com",
+                  "salario": "30000",
+                  "senha": "123",
+                  "tipo": "Aluno",
+                  "cursos": [],
+                  "seguidores": [],
+                  "seguindo": []
+                }
+              ],
+              "seguindo": [],
+              "candidaturas": [],
+              "sobre": "Desenvolvedor de Software"
+            }
+          ],
+          "seguindo": [],
+          "sobre": "Olá, meu nome é Samuel e sou desenvolvedor de software. Curso ADS na PUC Minas."
         }
       ],
       "seguindo": [],
-      "sobre": "Samuel feiosao"
+      "sobre": "Olá, meu nome é Samuel e sou desenvolvedor de software. Curso ADS na PUC Minas."
     },
     {
       "id": "f6b0",
@@ -256,6 +306,56 @@
           "seguindo": [],
           "candidaturas": [],
           "sobre": "Desenvolvedor de Software"
+        },
+        {
+          "id": "813e",
+          "nome": "Samuel Estevão",
+          "cpf": "123456789",
+          "email": "samuel@gmail.com",
+          "salario": "30000",
+          "senha": "123",
+          "tipo": "Aluno",
+          "cursos": [
+            {
+              "id": "f5e8",
+              "professor": "Maria Luiza Ribeiro Ruas",
+              "nome": "Curso de HTML e CSS",
+              "conteudo": "HTML",
+              "link": "https://youtube.com",
+              "descricao": "Introdução aos conceitos de html5 e css3 + práticas"
+            }
+          ],
+          "seguidores": [
+            {
+              "id": "813e",
+              "nome": "Samuel Maia de Oliveira",
+              "cpf": "16935206642",
+              "email": "smaia190500@gmail.com",
+              "salario": "1500",
+              "senha": "123",
+              "tipo": "Aluno",
+              "cursos": [],
+              "seguidores": [
+                {
+                  "id": "f6b0",
+                  "nome": "Samuel Estevão",
+                  "cpf": "123456789",
+                  "email": "samuel@gmail.com",
+                  "salario": "30000",
+                  "senha": "123",
+                  "tipo": "Aluno",
+                  "cursos": [],
+                  "seguidores": [],
+                  "seguindo": []
+                }
+              ],
+              "seguindo": [],
+              "candidaturas": [],
+              "sobre": "Desenvolvedor de Software"
+            }
+          ],
+          "seguindo": [],
+          "sobre": "Olá, meu nome é Samuel e sou desenvolvedor de software. Curso ADS na PUC Minas."
         }
       ],
       "seguindo": []
@@ -271,7 +371,24 @@
       "senha": "123",
       "tipo": "Professor",
       "descricao": "",
-      "cursos": [],
+      "cursos": [
+        {
+          "id": "f5e8",
+          "professor": "Maria Luiza Ribeiro Ruas",
+          "nome": "Curso de HTML e CSS",
+          "conteudo": "HTML",
+          "link": "https://youtube.com",
+          "descricao": "Introdução aos conceitos de html5 e css3 + práticas"
+        },
+        {
+          "id": "f5e8",
+          "professor": "Maria Luiza Ribeiro Ruas",
+          "nome": "Curso de HTML e CSS",
+          "conteudo": "HTML",
+          "link": "https://youtube.com",
+          "descricao": "Introdução aos conceitos de html5 e css3 + práticas"
+        }
+      ],
       "seguidores": [
         {
           "id": "813e",
@@ -325,6 +442,56 @@
           ],
           "seguindo": [],
           "sobre": "Samuel feiosao"
+        },
+        {
+          "id": "813e",
+          "nome": "Samuel Estevão",
+          "cpf": "123456789",
+          "email": "samuel@gmail.com",
+          "salario": "30000",
+          "senha": "123",
+          "tipo": "Aluno",
+          "cursos": [
+            {
+              "id": "f5e8",
+              "professor": "Maria Luiza Ribeiro Ruas",
+              "nome": "Curso de HTML e CSS",
+              "conteudo": "HTML",
+              "link": "https://youtube.com",
+              "descricao": "Introdução aos conceitos de html5 e css3 + práticas"
+            }
+          ],
+          "seguidores": [
+            {
+              "id": "813e",
+              "nome": "Samuel Maia de Oliveira",
+              "cpf": "16935206642",
+              "email": "smaia190500@gmail.com",
+              "salario": "1500",
+              "senha": "123",
+              "tipo": "Aluno",
+              "cursos": [],
+              "seguidores": [
+                {
+                  "id": "f6b0",
+                  "nome": "Samuel Estevão",
+                  "cpf": "123456789",
+                  "email": "samuel@gmail.com",
+                  "salario": "30000",
+                  "senha": "123",
+                  "tipo": "Aluno",
+                  "cursos": [],
+                  "seguidores": [],
+                  "seguindo": []
+                }
+              ],
+              "seguindo": [],
+              "candidaturas": [],
+              "sobre": "Desenvolvedor de Software"
+            }
+          ],
+          "seguindo": [],
+          "sobre": "Olá, meu nome é Samuel e sou desenvolvedor de software. Curso ADS na PUC Minas."
         }
       ],
       "seguindo": []
@@ -340,10 +507,75 @@
       "tipo": "Empresa",
       "senha": "123",
       "cursos": [],
-      "seguidores": [],
+      "sobre": "Somos uma empresa de tecnologia que atua no mercado a 10 anos.",
+      "seguidores": [
+        {
+          "id": "813e",
+          "nome": "Samuel Estevão",
+          "cpf": "123456789",
+          "email": "samuel@gmail.com",
+          "salario": "30000",
+          "senha": "123",
+          "tipo": "Aluno",
+          "cursos": [
+            {
+              "id": "f5e8",
+              "professor": "Maria Luiza Ribeiro Ruas",
+              "nome": "Curso de HTML e CSS",
+              "conteudo": "HTML",
+              "link": "https://youtube.com",
+              "descricao": "Introdução aos conceitos de html5 e css3 + práticas"
+            }
+          ],
+          "seguidores": [
+            {
+              "id": "813e",
+              "nome": "Samuel Maia de Oliveira",
+              "cpf": "16935206642",
+              "email": "smaia190500@gmail.com",
+              "salario": "1500",
+              "senha": "123",
+              "tipo": "Aluno",
+              "cursos": [],
+              "seguidores": [
+                {
+                  "id": "f6b0",
+                  "nome": "Samuel Estevão",
+                  "cpf": "123456789",
+                  "email": "samuel@gmail.com",
+                  "salario": "30000",
+                  "senha": "123",
+                  "tipo": "Aluno",
+                  "cursos": [],
+                  "seguidores": [],
+                  "seguindo": []
+                }
+              ],
+              "seguindo": [],
+              "candidaturas": [],
+              "sobre": "Desenvolvedor de Software"
+            }
+          ],
+          "seguindo": [],
+          "sobre": "Olá, meu nome é Samuel e sou desenvolvedor de software. Curso ADS na PUC Minas."
+        }
+      ],
       "seguindo": [],
       "vagas": [
         {
+          "id": "a793",
+          "titulo": "Desenvolvedor Front-end Júnior",
+          "descricao": "Desenvolver interfaces interativas para os usuários",
+          "jornada": "8h",
+          "requisitos": "JavaScript, React, TailwindCss",
+          "desejavel": "Conhecimentos em Vue,js",
+          "salario": "1300",
+          "regime": "Remoto",
+          "empresa": "Tecnologia Ltda.",
+          "candidatos": []
+        },
+        {
+          "id": "a793",
           "titulo": "Desenvolvedor Front-end Júnior",
           "descricao": "Desenvolver interfaces interativas para os usuários",
           "jornada": "8h",

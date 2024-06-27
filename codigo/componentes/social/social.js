@@ -28,7 +28,7 @@ async function loadProfiles(){
         console.log(profile.type)
         container.innerHTML += 
         `
-            <a href="../social-perfil/social_perfil.html?${urlParam}&idProfile=${profile.id}" class="link-para-perfil">
+            <a href="../social-perfil/social_perfil.html?${urlParam}&idProfile=${profile.id}&typeProfile=${profile.tipo}" class="link-para-perfil">
                 <div class="container-perfil">
                     <h5>${profile.nome}</h5>
                     <p>Perfil: ${profile.tipo}</p>

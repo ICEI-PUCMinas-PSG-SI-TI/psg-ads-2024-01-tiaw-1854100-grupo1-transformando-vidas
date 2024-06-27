@@ -116,8 +116,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
             <div class="perfil">
                 <h3>${obj.nome}</h3>
-                <p>Data de nascimento: ${obj.dia}/${obj.mes}/${obj.ano}</p>
-                <p>Localidade: ${obj.local}</p>
+                <p>Data de nascimento: ${obj.dia || '00'}/${obj.mes || '00'}/${obj.ano || '00'}</p>
+                <p>Localidade: ${obj.localidade || ''}</p>
                 <p class="desc">Descrição: ${obj.sobre}</p>
                 <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalExemplo">
                     
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         
         div.classList.add('container-dados-perfil')
-        const sobre = document.createElement('div')
+        const sobre = document.querySelector('.sobre')
         sobre.innerHTML = `<div class="sobre-container">
                 <div class="sobre">
                     <form class="form-sobre-mim">
@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     </form>
                 </div>`
         containerDados.appendChild(div)
-        containerDados.appendChild(sobre)
+        
 
         const btnEnviar = document.querySelector('.btn-enviar')
         const texto = document.querySelector('.texto')
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function() {
             card.innerHTML = `
                 <h4>${curso.nome}</h4>
                 <p>${curso.descricao}</p>
-                <a href="../detalhes-curso/detalhes_curso.html?${urlParams}&idCurso=${curso.id}" target="_blank">Ver detalhes</a>
+                <a href="../detalhes-curso/detalhes_curso.html?${urlParams}&idCurso=${curso.id}" target="_blank" class="btn btn-primary btn-ver-curso">Ver detalhes</a>
             `;
             cardsContainer.appendChild(card);
         });
