@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function() {
             card.innerHTML = `
                 <h4>${curso.nome}</h4>
                 <p>${curso.descricao}</p>
-                <a href="${curso.link}" target="_blank">Ver detalhes</a>
+                <a href="../detalhes-curso/detalhes_curso.html?${urlParams}&idCurso=${curso.id}" target="_blank">Ver detalhes</a>
             `;
             cardsContainer.appendChild(card);
         });
