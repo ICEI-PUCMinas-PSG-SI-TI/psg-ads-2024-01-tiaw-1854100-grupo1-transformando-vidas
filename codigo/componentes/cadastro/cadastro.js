@@ -148,21 +148,50 @@ bot.addEventListener("click", async (e) => {
                 let aluno = criarAluno()
                 axios.post(url_aluno,aluno)
                 alert('Criado com sucesso!')
+                location.href = `../login/login.html`
             } else {
                 alert('Email inconsistente, tente novamente.')
             }
         })
-        // location.href = `../login/login.html`
+        
     }
 
     else if(stat == 1){
-        let professor = criaProfessor()
-        axios.post(url_professor,professor)
-        location.href = `../login/login.html`
+        await fetch(`https://api.zerobounce.net/v2/validate?api_key=${api_key}&email=${a_email.value}&ip_address=`)
+        .then((response) => {
+            return response.json()
+        })
+        .then((response) => {
+            console.log(response.status)
+            if(response.status == 'valid'){
+                let professor = criaProfessor()
+                axios.post(url_professor,professor)
+                alert('Criado com sucesso!')
+                location.href = `../login/login.html`
+            } else {
+                alert('Email inconsistente, tente novamente.')
+                return
+            }
+        })
+        
+        
     }
     else if(stat == 2){
-        let empresa = criaEmpresa()
-        axios.post(url_empresa,empresa)
-        location.href = '../login/login.html'
+        await fetch(`https://api.zerobounce.net/v2/validate?api_key=${api_key}&email=${a_email.value}&ip_address=`)
+        .then((response) => {
+            return response.json()
+        })
+        .then((response) => {
+            console.log(response.status)
+            if(response.status == 'valid'){
+                let empresa = criaEmpresa()
+                axios.post(url_empresa,empresa)
+                alert('Criado com sucesso!')
+                location.href = '../login/login.html'
+            } else {
+                alert('Email inconsistente, tente novamente.')
+                return
+            }
+        })  
     }
 })
