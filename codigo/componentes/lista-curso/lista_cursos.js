@@ -77,7 +77,7 @@ function setCurso(curso){
                     Professor: ${curso.professor}
                 </p>
             </div>
-            <div className="container-btn d-flex justify-content-start">
+            <div className="container-btn d-flex justify-content-center">
                 <a class="btn btn-acessar" href="../detalhes-curso/detalhes_curso.html?${urlParams}&idCurso=${curso.id}"/>
                     Acessar curso
                 </a>   

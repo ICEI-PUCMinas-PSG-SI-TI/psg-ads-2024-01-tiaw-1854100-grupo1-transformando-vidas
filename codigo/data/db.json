@@ -10,7 +10,9 @@
       "salario": "1300",
       "regime": "Remoto",
       "empresa": "Tecnologia Ltda.",
-      "candidatos": []
+      "candidatos": [
+        null
+      ]
     },
     {
       "id": "a793",

@@ -85,8 +85,6 @@ body {
 }
 
 
-
-
 .btn:hover{
     background-color: #2449d1 !important;
 }
@@ -107,17 +105,23 @@ small{
 
 /*cards*/
 .card {
-    padding: 2rem;
+    padding: 1rem;
     width: 25rem; 
+    color: black;
     /* max-width: 350px;  */
     height: 210px; 
     border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.411) !important;
+    /*   */
     background-color: #f0f0f0;
     display: flex;  
     align-items: center;
     position: relative;
     margin-bottom: 20px; 
+}
+    
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-decoration: none;
 }
 
 .info{
