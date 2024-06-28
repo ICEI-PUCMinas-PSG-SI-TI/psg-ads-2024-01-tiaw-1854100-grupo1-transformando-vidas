@@ -112,6 +112,11 @@ label{
     margin-bottom: .75rem;
 }
 
+.card-vaga:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;   
+}
+
 .desc-vaga{
     overflow: hidden;
     white-space: nowrap;

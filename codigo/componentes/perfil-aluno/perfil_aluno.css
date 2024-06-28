@@ -67,13 +67,12 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding: 20px;
     flex-wrap: wrap; 
 }
 
 .foto-perfil {
-    margin-right: 20px;
+    
     flex: 1;
     max-width: 100%; 
 }
@@ -85,7 +84,6 @@ body {
 
 .sobre-container {
     flex: 1;
-    margin-left: 20px;
     max-width: 100%; 
 }
 

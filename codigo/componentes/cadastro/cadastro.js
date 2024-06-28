@@ -1,3 +1,5 @@
+const api_key = '55befc11d5594e6e9ac309b42009a973'
+
 const a_botao = document.querySelector("#a-botao")
 const p_botao = document.querySelector("#p-botao")
 const e_botao = document.querySelector("#e-botao")
@@ -129,16 +131,28 @@ let url_professor = 'http://localhost:3000/professores'
 let url_empresa = 'http://localhost:3000/empresas'
 
 // criando um evento após o click no botão cadastrar ** o metodo addEventListener aceita o evento de stopin e a cunção que sera chamada
-bot.addEventListener("click", (e) => {
+bot.addEventListener("click", async (e) => {
     e.preventDefault()
     if(!a_nome.value || !a_cpf.value|| !a_email.value || !renda.value||!a_senha.value){
         alert("Todos os campos devem estar preenchidos")
         return
     }
     if (stat==0){
-        let aluno = criarAluno()
-        axios.post(url_aluno,aluno)
-        location.href = `../login/login.html`
+        await fetch(`https://api.zerobounce.net/v2/validate?api_key=${api_key}&email=${a_email.value}&ip_address=`)
+        .then((response) => {
+            return response.json()
+        })
+        .then((response) => {
+            console.log(response.status)
+            if(response.status == 'valid'){
+                let aluno = criarAluno()
+                axios.post(url_aluno,aluno)
+                alert('Criado com sucesso!')
+            } else {
+                alert('Email inconsistente, tente novamente.')
+            }
+        })
+        // location.href = `../login/login.html`
     }
 
     else if(stat == 1){

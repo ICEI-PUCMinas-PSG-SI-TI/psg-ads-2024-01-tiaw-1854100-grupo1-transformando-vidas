@@ -127,9 +127,9 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
             </div>`
         }
-        
+
         div.classList.add('container-dados-perfil')
-        const sobre = document.querySelector('.sobre')
+        const sobre = document.createElement('div')
         sobre.innerHTML = `<div class="sobre-container">
                 <div class="sobre">
                     <form class="form-sobre-mim">
@@ -139,6 +139,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     </form>
                 </div>`
         containerDados.appendChild(div)
+        containerDados.appendChild(sobre)
         
 
         const btnEnviar = document.querySelector('.btn-enviar')
