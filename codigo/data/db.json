@@ -752,6 +752,20 @@
           "candidatos": []
         }
       ]
+    },
+    {
+      "id": "8135",
+      "nome": "marilu Ribeiro",
+      "cnpj": "231313344323",
+      "email": "maria@gmail.com",
+      "areaProjetos": "aluno",
+      "senha": "123",
+      "tipo": "Empresa",
+      "sobre": "",
+      "localidade": "Sabará",
+      "vagas": [],
+      "seguidores": [],
+      "seguindo": []
     }
   ],
   "cursos": [

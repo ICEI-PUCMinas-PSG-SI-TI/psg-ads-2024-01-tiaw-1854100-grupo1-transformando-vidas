@@ -1,5 +1,3 @@
-const api_key = '55befc11d5594e6e9ac309b42009a973'
-
 const a_botao = document.querySelector("#a-botao")
 const p_botao = document.querySelector("#p-botao")
 const e_botao = document.querySelector("#e-botao")
@@ -12,7 +10,9 @@ const a_nome = document.querySelector("#a-nome")
 const a_cpf = document.querySelector("#a-cpf")
 const l_cpf = document.querySelector("#l-cpf")
 const a_email = document.querySelector("#a-email")
-const renda = document.querySelector("#renda")
+const dt_nascimento = document.querySelector("#dt_nascimento")
+const localidade = document.querySelector("#localidade")
+const input_localidade = document.querySelector("#inpu-localidade")
 const renda_minima = document.querySelector("#renda-minima")
 const a_senha = document.querySelector("#a-senha")
 const bot = document.querySelector("#botao")
@@ -31,8 +31,10 @@ window.addEventListener("load",(e)=>{
     l_professor.setAttribute("class","sem-formulario")
     cnpj.setAttribute("class","sem-formulario")
     a_projetos.setAttribute("class","sem-formulario")
+    localidade.setAttribute("class","sem-formulario")
     a_botao.style.color="#3e66f2"
     return
+
 })
 // evontos do formulario dinamico 
 // alterna os labels se for ( professor , aluno ou emopresa)
@@ -43,6 +45,7 @@ p_botao.addEventListener("click",(e)=>{
     cnpj.setAttribute("class","sem-formulario")
     l_cpf.setAttribute("class","com-formulario")
     a_projetos.setAttribute("class","sem-formulario")
+    localidade.setAttribute("class","com-formulario")
     a_botao.style.color="#000"
     e_botao.style.color="#000"
     p_botao.style.color="#3e66f2"
@@ -55,6 +58,7 @@ a_botao.addEventListener("click",(e)=>{
     cnpj.setAttribute("class","sem-formulario")
     l_cpf.setAttribute("class","com-formulario")
     a_projetos.setAttribute("class","sem-formulario")
+    localidade.setAttribute("class","com-formulario")
     e_botao.style.color="#000"
     p_botao.style.color="#000"
     a_botao.style.color="#3e66f2"
@@ -67,6 +71,7 @@ e_botao.addEventListener("click",(e)=>{
     cnpj.setAttribute("class","com-formulario")
     l_cpf.setAttribute("class","sem-formulario")
     a_projetos.setAttribute("class","com-formulario")
+    localidade.setAttribute("display","ruby")
     a_botao.style.color="#000"
     p_botao.style.color="#000"
     e_botao.style.color="#3e66f2"
@@ -83,9 +88,11 @@ function criarAluno(){
         nome: a_nome.value,
         cpf:a_cpf.value,
         email:a_email.value,
-        salario: renda.value ,
+        localidade:input_localidade.value,
+        data_nascimento: dt_nascimento.value ,
         senha:a_senha.value,
         tipo: 'Aluno',
+        sobre:"",
         cursos: [],
         seguidores: [],
         seguindo: []
@@ -99,10 +106,11 @@ function criaProfessor(){
         nome: a_nome.value,
         cpf:a_cpf.value,
         email:a_email.value,
-        tempoAtuacao: renda.value ,
+        localidade:input_localidade.value,
+        tempoAtuacao: dt_nascimento.value ,
         senha:a_senha.value,
         tipo: 'Professor',
-        descricao:"",
+        sobre:"",
         cursos: [],
         seguidores: [],
         seguindo: []
@@ -115,9 +123,11 @@ function criaEmpresa(){
         nome: a_nome.value,
         cnpj:a_cpf.value,
         email:a_email.value,
-        areaProjetos: renda.value ,
+        areaProjetos: dt_nascimento.value ,
         senha:a_senha.value,
         tipo: 'Empresa',
+        sobre:"",
+        localidade:input_localidade.value,
         vagas: [],
         seguidores: [],
         seguindo: []
@@ -131,28 +141,16 @@ let url_professor = 'http://localhost:3000/professores'
 let url_empresa = 'http://localhost:3000/empresas'
 
 // criando um evento após o click no botão cadastrar ** o metodo addEventListener aceita o evento de stopin e a cunção que sera chamada
-bot.addEventListener("click", async (e) => {
+bot.addEventListener("click", (e) => {
     e.preventDefault()
-    if(!a_nome.value || !a_cpf.value|| !a_email.value || !renda.value||!a_senha.value){
+    if(!a_nome.value || !a_cpf.value|| !a_email.value || !dt_nascimento.value||!a_senha.value||!input_localidade.value){
         alert("Todos os campos devem estar preenchidos")
         return
     }
     if (stat==0){
-        await fetch(`https://api.zerobounce.net/v2/validate?api_key=${api_key}&email=${a_email.value}&ip_address=`)
-        .then((response) => {
-            return response.json()
-        })
-        .then((response) => {
-            console.log(response.status)
-            if(response.status == 'valid'){
-                let aluno = criarAluno()
-                axios.post(url_aluno,aluno)
-                alert('Criado com sucesso!')
-            } else {
-                alert('Email inconsistente, tente novamente.')
-            }
-        })
-        // location.href = `../login/login.html`
+        let aluno = criarAluno()
+        axios.post(url_aluno,aluno)
+        location.href = `../login/login.html`
     }
 
     else if(stat == 1){
@@ -165,4 +163,18 @@ bot.addEventListener("click", async (e) => {
         axios.post(url_empresa,empresa)
         location.href = '../login/login.html'
     }
+    alert("Cadastro realizado com sucesso!!")
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
