@@ -18,3 +18,6 @@ if (type == 'empresa'){
     btnConta.setAttribute('href', `perfil_prof.html${window.location.search}`)
 }
 
+if (!type){
+    alert('Você precisa estar logado para acessar a conta. Por favor, clique em login ou cadastre-se.')
+}

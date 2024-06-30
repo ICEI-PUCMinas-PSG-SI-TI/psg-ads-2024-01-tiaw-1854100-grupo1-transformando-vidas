@@ -15,83 +15,110 @@
 
 <body>
     <header class="cabecalho mb-5 mt-4 mx-4 d-flex justify-content-between">
-       
+        <div class="logo">
+            <p class="logo-texto mb-0">
+                #EDUCA
+            </p>
+            <p class="logo-texto mb-0">
+                &lt;/WEB&gt;
+            </p>
+        </div>
+
+        <nav class="nav d-flex  justify-content-center gap-4 align-items-center">
+            <div>
+                <a href="../componentes/social/social.html?type=${typeLogin}&id=${idUser}" class="nav-item">Página Inicial</a>
+            </div>
+            <div>
+                <a href="../componentes/lista-curso/lista_cursos.html?type=${typeLogin}&id=${idUser}" class="nav-item">Cursos</a>
+            </div>
+            <div>
+                <a href="../componentes/lista-vagas/lista_vagas.html?type=${typeLogin}&id=${idUser}" class="nav-item">Vagas</a>
+            </div>
+            <div>
+                <a href="" class="nav-item">Sobre nós</a>
+            </div>
+
+        </nav>
+
+        
+
+        <a class="entrar btn d-flex justify-content-center align-items-center p-3 gap-1">
+            Conta
+        </a>
     </header>
 
-    <main class="main mx-4">
-        <h1 class="pagina-titulo mb-5">
-            Transformando vidas através da educação e <span class="tecnologia">tecnologia</span>
-        </h1>
-
-        <p class="pagina-descricao mb-0">
-            Diversos cursos online para &lt;/transformar&gt; sua carreira e sua vida!
-        </p>
-        <div class="container-transformar">
-            <span class="transformar1 d-block mt-0">&lt;/transformar&gt;</span>
-            <span class="transformar2 d-block mt-0">&lt;/transformar&gt;</span>
-            <span class="transformar3 d-block mt-0">&lt;/transformar&gt;</span>
-        </div>
-    </main>
-
-    <section class="cards container-fluid mt-5 mx-auto d-flex gap-5 justify-content-center">
-        <div class="card d-flex flex-direction-column align-items-center p-2" style="width: 24rem;">
-            <div class="card-body d-flex flex-column align-items-center">
-                <h5 class="card-title d-flex gap-3 align-items-center mb-4">
-                    <img src="assets/img/icone-excel.png" alt="" class="card-icone">
-                    Excel
-                </h5>
-                <p class="card-text">Desenvolva a capacidade de criar planilhas incríveis e dinâmicas para se destacar nas vagas!</p>
-                <button class="btn btn-card-curso">Conhecer curso</button>
+    <div class="principal">
+        <main class="main mx-4">
+            <h1 class="pagina-titulo mb-5">
+                Transformando vidas através da educação e <span class="tecnologia">tecnologia</span>
+            </h1>
+            <p class="pagina-descricao mb-0">
+                Diversos cursos online para &lt;/transformar&gt; sua carreira e sua vida!
+            </p>
+            <div class="container-transformar">
+                <span class="transformar1 d-block mt-0">&lt;/transformar&gt;</span>
+                <span class="transformar2 d-block mt-0">&lt;/transformar&gt;</span>
+                <span class="transformar3 d-block mt-0">&lt;/transformar&gt;</span>
             </div>
-        </div>
-
-        <div class="card d-flex flex-direction-column align-items-center p-2" style="width: 24rem;">
-            <div class="card-body d-flex flex-column align-items-center">
-                <h5 class="card-title d-flex gap-3 align-items-center mb-4">
-                    <img src="assets/img/icone-js.png" alt="">
-                    JavaScript!
-                </h5>
-                <p class="card-text">Desenvolva funcionalidades incríveis para implementar no seu site e deixá-lo muito mais dinâmico</p>
-                <button class="btn btn-card-curso">Conhecer curso</button>
+        </main>
+        <section class="cards container-fluid mt-5 mx-auto d-flex gap-5 justify-content-center">
+            <div class="card d-flex flex-direction-column align-items-center p-2" style="width: 24rem;">
+                <div class="card-body d-flex flex-column align-items-center">
+                    <h5 class="card-title d-flex gap-3 align-items-center mb-4">
+                        <img src="assets/img/icone-excel.png" alt="" class="card-icone">
+                        Excel
+                    </h5>
+                    <p class="card-text">Desenvolva a capacidade de criar planilhas incríveis e dinâmicas para se destacar nas vagas!</p>
+                    <button class="btn btn-card-curso">Conhecer curso</button>
+                </div>
             </div>
-        </div>
-
-        <div class="card d-flex flex-direction-column align-items-center p-2" style="width: 24rem;">
-            <div class="card-body d-flex flex-column align-items-center">
-                <h5 class="card-title d-flex gap-3 align-items-center mb-4">
-                    <img src="assets/img/icone-html.png" alt="">
-                    HTML e CSS
-                </h5>
-                <p class="card-text">Dê seus primeiros sites na construção de sites incríveis, com uma gama de estilos e animações</p>
-                <button class="btn btn-card-curso">Conhecer curso</button>
+            <div class="card d-flex flex-direction-column align-items-center p-2" style="width: 24rem;">
+                <div class="card-body d-flex flex-column align-items-center">
+                    <h5 class="card-title d-flex gap-3 align-items-center mb-4">
+                        <img src="assets/img/icone-js.png" alt="">
+                        JavaScript!
+                    </h5>
+                    <p class="card-text">Desenvolva funcionalidades incríveis para implementar no seu site e deixá-lo muito mais dinâmico</p>
+                    <button class="btn btn-card-curso">Conhecer curso</button>
+                </div>
             </div>
-        </div>
-
-        <div class="card p-2" style="width: 24rem;">
-            <div class="card-body d-flex flex-column align-items-center ">
-                <h5 class="card-title d-flex gap-3 align-items-center mb-4">
-                    <img src="assets/img/icone-sql.png" alt="">
-                    SQL
-                </h5>
-                <p class="card-text">Armazene, trate e gerencie grandes volumes de dados, criando DataBases SQL para aplicações.</p>
-                <button class="btn btn-card-curso">Conhecer curso</button>
+            <div class="card d-flex flex-direction-column align-items-center p-2" style="width: 24rem;">
+                <div class="card-body d-flex flex-column align-items-center">
+                    <h5 class="card-title d-flex gap-3 align-items-center mb-4">
+                        <img src="assets/img/icone-html.png" alt="">
+                        HTML e CSS
+                    </h5>
+                    <p class="card-text">Dê seus primeiros sites na construção de sites incríveis, com uma gama de estilos e animações</p>
+                    <button class="btn btn-card-curso">Conhecer curso</button>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <div class="container links-entrar mt-5 d-flex align-items-center justify-content-center">
-        <div class="container-links d-flex gap-5">
-            <a href="/codigo/componentes/cadastro/cadastro.html" class="btn link-entrar">Cadastre-se</a>
-            <a href="/codigo/componentes/login/login.html" class="btn link-entrar">Entrar</a>
+            <div class="card p-2" style="width: 24rem;">
+                <div class="card-body d-flex flex-column align-items-center ">
+                    <h5 class="card-title d-flex gap-3 align-items-center mb-4">
+                        <img src="assets/img/icone-sql.png" alt="">
+                        SQL
+                    </h5>
+                    <p class="card-text">Armazene, trate e gerencie grandes volumes de dados, criando DataBases SQL para aplicações.</p>
+                    <button class="btn btn-card-curso">Conhecer curso</button>
+                </div>
+            </div>
+        </section>
+        <div class="container links-entrar mt-5 d-flex align-items-center justify-content-center">
+            <div class="container-links d-flex gap-5">
+                <a href="/codigo/componentes/cadastro/cadastro.html" class="btn link-entrar">Cadastre-se</a>
+                <a href="/codigo/componentes/login/login.html" class="btn link-entrar">Entrar</a>
+            </div>
         </div>
     </div>
 
 
     
-    <footer class="footer">
-        
+    <footer class="footer"> 
+        <a>Desenvolvido pelo Grupo1</a>
+        <a href="#"><img src="../assets/img/icons8-instagram-24.png"></a>
+        <a href="#"><img src="../assets/img/icons8-github-24.png" alt="Git Hub"></a>
     </footer>
-    <script src="../global.js"></script>
+    
     <script src="./index.js"></script>
 </body>
 

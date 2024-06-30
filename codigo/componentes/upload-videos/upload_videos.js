@@ -56,6 +56,7 @@ document.getElementById('btnenvio').addEventListener('click', function(e) {
             return
         }
 
+        alert('Criado com sucesso!')
         window.location.href = '../lista-curso/lista_cursos.html';
         
     }

@@ -11,7 +11,6 @@ let cursos
 async function loadCursos(){
    const response = await axios.get(urlCursos)
    cursos = response.data
-   console.log(cursos)
    for (curso of cursos){
     setCurso(curso)
    }
@@ -70,18 +69,16 @@ function setCurso(curso){
                 ${curso.nome}
             </h5>
             <div className="info">
-                <p class="desc">
+                <p class="desc-curso">
                     Descrição: ${curso.descricao}
                 </p>
                 <p class="professor">
                     Professor: ${curso.professor}
                 </p>
             </div>
-            <div className="container-btn d-flex justify-content-center">
-                <a class="btn btn-acessar" href="../detalhes-curso/detalhes_curso.html?${urlParams}&idCurso=${curso.id}"/>
-                    Acessar curso
-                </a>   
-            </div>
+            <a class="btn btn-acessar" href="../detalhes-curso/detalhes_curso.html?${urlParams}&idCurso=${curso.id}"/>
+                Acessar curso
+            </a>   
         </div>
     `
     containerCursos.appendChild(div)

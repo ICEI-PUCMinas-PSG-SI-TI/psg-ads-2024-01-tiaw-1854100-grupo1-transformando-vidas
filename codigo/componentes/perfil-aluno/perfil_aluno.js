@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
             div.innerHTML = `
             <div class="foto-perfil">
                 <img src="../../assets/img/avatar-do-usuario.png" alt="foto de perfil">
-                <p><a href="edicao_perfil.html">Editar Perfil</a></p>
+                <p><a href="../edicao-aluno/edicao_de_aluno.html">Editar Perfil</a></p>
             </div>
 
             <div class="perfil">

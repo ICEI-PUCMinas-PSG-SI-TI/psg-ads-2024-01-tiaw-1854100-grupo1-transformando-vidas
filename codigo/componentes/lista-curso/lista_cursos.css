@@ -84,6 +84,10 @@ body {
     border: transparent !important;
 }
 
+.btn-acessar{
+    position: absolute;
+    bottom: 1rem;
+}
 
 .btn:hover{
     background-color: #2449d1 !important;
@@ -108,10 +112,8 @@ small{
     padding: 1rem;
     width: 25rem; 
     color: black;
-    /* max-width: 350px;  */
     height: 210px; 
     border-radius: 8px;
-    /*   */
     background-color: #f0f0f0;
     display: flex;  
     align-items: center;

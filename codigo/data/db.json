@@ -16,7 +16,7 @@
     },
     {
       "id": "a793",
-      "titulo": "Desenvolvedor Front-end Júnior",
+      "titulo": "Desenvolvedor Front-end Senior",
       "descricao": "Desenvolver interfaces interativas para os usuários",
       "jornada": "8h",
       "requisitos": "JavaScript, React, TailwindCss",
@@ -167,6 +167,18 @@
       "desejavel": "Conhecimentos em Vue,js",
       "salario": "1300",
       "regime": "Remoto",
+      "empresa": "Tecnologia Ltda.",
+      "candidatos": []
+    },
+    {
+      "id": "f00b",
+      "titulo": "Dev Junior WEB",
+      "descricao": "Atuar como desenvolvedor nos serviços de nuvem da google",
+      "jornada": "8h",
+      "requisitos": "JavaScript, React, TailwindCss",
+      "desejavel": "PostgreSQL",
+      "salario": "1300",
+      "regime": "Hibrido",
       "empresa": "Tecnologia Ltda.",
       "candidatos": []
     }
@@ -271,120 +283,6 @@
       ],
       "seguindo": [],
       "sobre": "Olá, meu nome é Samuel e sou desenvolvedor de software. Atualmente curso ADS na PUC Minas"
-    },
-    {
-      "id": "f6b0",
-      "nome": "Samuel Estevão",
-      "cpf": "123456789",
-      "email": "samuel@gmail.com",
-      "salario": "30000",
-      "senha": "123",
-      "tipo": "Aluno",
-      "cursos": [],
-      "seguidores": [
-        {
-          "id": "813e",
-          "nome": "Samuel Maia de Oliveira",
-          "cpf": "16935206642",
-          "email": "smaia190500@gmail.com",
-          "salario": "1500",
-          "senha": "123",
-          "tipo": "Aluno",
-          "cursos": [],
-          "seguidores": [
-            {
-              "id": "f6b0",
-              "nome": "Samuel Estevão",
-              "cpf": "123456789",
-              "email": "samuel@gmail.com",
-              "salario": "30000",
-              "senha": "123",
-              "tipo": "Aluno",
-              "cursos": [],
-              "seguidores": [],
-              "seguindo": []
-            }
-          ],
-          "seguindo": [],
-          "candidaturas": [],
-          "sobre": "Desenvolvedor de Software"
-        },
-        {
-          "id": "813e",
-          "nome": "Samuel Estevão",
-          "cpf": "123456789",
-          "email": "samuel@gmail.com",
-          "salario": "30000",
-          "senha": "123",
-          "tipo": "Aluno",
-          "cursos": [
-            {
-              "id": "f5e8",
-              "professor": "Maria Luiza Ribeiro Ruas",
-              "nome": "Curso de HTML e CSS",
-              "conteudo": "HTML",
-              "link": "https://youtube.com",
-              "descricao": "Introdução aos conceitos de html5 e css3 + práticas"
-            }
-          ],
-          "seguidores": [
-            {
-              "id": "813e",
-              "nome": "Samuel Maia de Oliveira",
-              "cpf": "16935206642",
-              "email": "smaia190500@gmail.com",
-              "salario": "1500",
-              "senha": "123",
-              "tipo": "Aluno",
-              "cursos": [],
-              "seguidores": [
-                {
-                  "id": "f6b0",
-                  "nome": "Samuel Estevão",
-                  "cpf": "123456789",
-                  "email": "samuel@gmail.com",
-                  "salario": "30000",
-                  "senha": "123",
-                  "tipo": "Aluno",
-                  "cursos": [],
-                  "seguidores": [],
-                  "seguindo": []
-                }
-              ],
-              "seguindo": [],
-              "candidaturas": [],
-              "sobre": "Desenvolvedor de Software"
-            }
-          ],
-          "seguindo": [],
-          "sobre": "Olá, meu nome é Samuel e sou desenvolvedor de software. Curso ADS na PUC Minas."
-        }
-      ],
-      "seguindo": []
-    },
-    {
-      "id": "9a9a",
-      "nome": "Samuel Maia de",
-      "cpf": "16935206642",
-      "email": "smaia9@outlook.com",
-      "salario": "1500",
-      "senha": "123",
-      "tipo": "Aluno",
-      "cursos": [],
-      "seguidores": [],
-      "seguindo": []
-    },
-    {
-      "id": "1529",
-      "nome": "Samuel Maia de",
-      "cpf": "16935206642",
-      "email": "smaia9@outlook.com",
-      "salario": "1500",
-      "senha": "123",
-      "tipo": "Aluno",
-      "cursos": [],
-      "seguidores": [],
-      "seguindo": []
     }
   ],
   "professores": [
@@ -520,45 +418,6 @@
           "sobre": "Olá, meu nome é Samuel e sou desenvolvedor de software. Curso ADS na PUC Minas."
         }
       ],
-      "seguindo": []
-    },
-    {
-      "id": "b584",
-      "nome": "Samuel Maia de",
-      "cpf": "16935206642",
-      "email": "smaiasas223229@outlook.com",
-      "tempoAtuacao": "1500",
-      "senha": "123",
-      "tipo": "Professor",
-      "descricao": "",
-      "cursos": [],
-      "seguidores": [],
-      "seguindo": []
-    },
-    {
-      "id": "42ac",
-      "nome": "Samuel Maia de",
-      "cpf": "16935206642",
-      "email": "smaia9@outlook.sascom",
-      "tempoAtuacao": "1500",
-      "senha": "123",
-      "tipo": "Professor",
-      "descricao": "",
-      "cursos": [],
-      "seguidores": [],
-      "seguindo": []
-    },
-    {
-      "id": "e350",
-      "nome": "Samuel Maia de",
-      "cpf": "16935206642",
-      "email": "smaia9@outlook.com",
-      "tempoAtuacao": "1500",
-      "senha": "123",
-      "tipo": "Professor",
-      "descricao": "",
-      "cursos": [],
-      "seguidores": [],
       "seguindo": []
     }
   ],
@@ -750,6 +609,17 @@
           "regime": "Remoto",
           "empresa": "Tecnologia Ltda.",
           "candidatos": []
+        },
+        {
+          "titulo": "Dev Junior WEB",
+          "descricao": "Atuar como desenvolvedor nos serviços de nuvem da google",
+          "jornada": "8h",
+          "requisitos": "JavaScript, React, TailwindCss",
+          "desejavel": "PostgreSQL",
+          "salario": "1300",
+          "regime": "Hibrido",
+          "empresa": "Tecnologia Ltda.",
+          "candidatos": []
         }
       ]
     }
@@ -762,6 +632,14 @@
       "conteudo": "HTML",
       "link": "https://youtube.com",
       "descricao": "Introdução aos conceitos de html5 e css3 + práticas"
+    },
+    {
+      "id": "87cd",
+      "professor": "Maria Luiza Ribeiro Ruas",
+      "nome": "Curso de JavaScript",
+      "conteudo": "Java",
+      "link": "https://youtube.com",
+      "descricao": "Introdução a linguagem JavaScript"
     }
   ],
   "usuarios": []

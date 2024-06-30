@@ -75,7 +75,7 @@ label{
     font-weight: 500;
 }
 
-footer{
+/* footer{
     position: fixed;
     bottom: 0;
     background-color: #3e66f2;
@@ -86,7 +86,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 @media (max-width: 550px){
     .form-cadastro-vagas{
