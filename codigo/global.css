@@ -129,3 +129,18 @@ body {
         width: 100vw;
     }
   }
+
+  @media (max-width: 550px){
+    .nav{
+        flex-direction: column;
+        display: none;
+    }
+
+    .entrar{
+        display: none;
+    }
+
+    iframe{
+        width: 90%;
+    }
+}

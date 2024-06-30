@@ -142,9 +142,11 @@ async function loadCursos(){
         const card = document.createElement('div')
         card.classList.add('card');
         card.innerHTML = `
-            <h4>${curso.nome}</h4>
-            <p>${curso.descricao}</p>
-            <a href="../detalhes-curso/detalhes_curso.html?${urlParams}&idCurso=${curso.id}" target="_blank" class="btn btn-primary btn-ver-curso">Ver detalhes</a>
+            <div class="card-body">
+                <h4 class="card-title">${curso.nome}</h4>
+                <p>${curso.descricao}</p>
+                <a href="../detalhes-curso/detalhes_curso.html?${urlParams}&idCurso=${curso.id}" target="_blank" class="btn btn-primary btn-ver-curso">Ver detalhes</a>
+            </div>
         `;
         cardsContainer.appendChild(card);
     });

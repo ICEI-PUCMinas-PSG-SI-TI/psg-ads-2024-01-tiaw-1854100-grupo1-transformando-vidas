@@ -33,6 +33,7 @@ async function loadProfiles(){
                     <h5>${profile.nome}</h5>
                     <p>Perfil: ${profile.tipo}</p>
                     <p class="desc-perfil">Descrição: ${profile.sobre || ''}</p>
+                    <a href="../social-perfil/social_perfil.html?${urlParam}&idProfile=${profile.id}&typeProfile=${profile.tipo}" class="btn btn-primary">Acessar perfil</a>
                 </div>
             </a>
         `
