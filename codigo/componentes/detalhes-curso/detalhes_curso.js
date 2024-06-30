@@ -11,8 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         cursos = response.data
 
-        console.log(cursos)
-
         const params = new URLSearchParams(window.location.search);
         const cursoId = params.get('idCurso');
         const curso = cursos.find(c => c.id == cursoId);
@@ -29,9 +27,30 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             document.body.innerHTML = '<h1>Curso não encontrado</h1>';
         }
+
+        const btnConcluido = document.querySelector('.concluido')
+
+        btnConcluido.addEventListener('click', async () => {
+            const urlP = new URLSearchParams(window.location.search)
+
+            const type = urlP.get('type')
+
+            if (type == 'aluno'){
+                await fetch(`http://localhost:3000/alunos/${urlP.get('id')}`)
+                .then((response) => {
+                    return response.json()
+                })
+                .then((response) => {
+                    const aluno = response
+                    aluno.cursos.push(curso)
+                    axios.put(`http://localhost:3000/alunos/${urlP.get('id')}`, aluno)
+                })
+            }
+        })
     }
 
     carregarCursos()
+
 
     
 });
