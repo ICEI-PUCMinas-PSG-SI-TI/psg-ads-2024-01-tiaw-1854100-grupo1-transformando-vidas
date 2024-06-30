@@ -60,11 +60,15 @@ Presumimos que o público-alvo não tem experiência ou contato prévio com tecn
 
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+Ferramentas utilizadas no projeto:
+- HTML - Linguagem de marcação usada para definir estruturas da aplicação;
+- CSS - Folhas de estilização usadas para promover a melhor experiência do usuário;
+- JavaScript - Linguagem de programação usada para promover a interatividade do usuário com a aplicação;
+- Json-Server - API Fake, utilizada para simular o back-end da aplicação, simulando persistência de dados e recebendo requisições;
+- Axios - Cliente http usado para realizar requisições para o Json-Server, substituindo o uso do Fetch API;
+- Git - Ferramenta de versionamento do código e atualizações em nuvem;
+- Figma - Aplicação web usada para fazer o protótipo do design do site;
+- Miro - Ferramenta para planejamento geral do projeto.
 
 ## Personas
 
@@ -100,23 +104,6 @@ dados.
 > - Sonhos: Aprender tecnologia para desenvolver sua própria loja online de materiais esportivos
 > - Objetos e lugares: Ele usa seu celular para seu trabalho, anotando o perfil dos garotos do time, estratégias para serem usadas e tornar o time da comunidade conhecido nas redes sociais e atrair patrocinadores.
 > - Objetivos chave: Nathan deseja adquirir habilidades básicas de desenvolvimento web para criar e gerenciar seu próprio site de e-commerce. Ele precisa do nosso projeto porque não tem condições de pagar cursos caros ou faculdade.
-
-
-> Relacione as personas identificadas no seu projeto. Lembre-se que 
-> você deve descrever precisamente e de forma personalizada o público alvo do seu projeto. 
-> Você pode incluir uma imagem da ficha de persona desenvolvida. 
->
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> 
-> **Exemplo de Ficha**
-> ![Exemplo de Persona](images/persona.png)
  
 
 ## Histórias de Usuários
@@ -130,10 +117,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 - Eu como aluno/professor/empresa preciso de editar meus dados para corrigir dados incorretos e/ou ultrapassados
 - Eu como aluno do site, preciso de validação de conclusão do curso para receber uma certificação
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
 ## Requisitos
 
 A tabela que segue apresenta os requisitos funcionais do projeto. 
@@ -142,12 +125,12 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 > ID          Descrição                                     Prioridade
 >- RF-001      Permitir criar cursos                         ALTA
->- RF-002      Emitir certificados                           MÉDIA
->- RF-003      Criar quiz                                    MÉDIA
+>- RF-002      Visualizar perfil de outros usuários          MÉDIA
+>- RF-003      Seguir perfil de outros usuários              MÉDIA
 >- RF-004      Subir novas vagas                             ALTA
 >- RF-005      Enviar/receber mensagens                      MÉDIA
 >- RF-006      Enviar candidatura                            ALTA
->- RF-007      Registrar progresso                           MÉDIA
+>- RF-007      Visualizar meus cursos e vagas                ALTA
 >- RF-008      Demonstrar interesse em áreas específicas     MÉDIA
 >- RF-009      Realizar doações                              MÉDIA
 
@@ -178,12 +161,8 @@ https://www.figma.com/file/3up1CgMyA9ULuVXgcwUaMM/Grupo-1-TIAW---P%C3%A1ginas-e-
 
 # Conclusões
 
-O projeto irá ajudar pessoas de baixa renda a adentrar no mercado de trabalho, produzir histórias de como a educação pode ser, e é, uma grande ferramenta de transformação social. Neste primeiro momento, foi possível desenhar e compreender o panorama geral do projeto, arquitetar nossos objetivos e funcionalidades que queremos implementar para a melhor UX possível. 
+O projeto foi criado, inicialmente, com o objetivo de fornecer uma plataforma acessível para que pessoas de baixa renda possam aprender algo novo, assim tentarem se tornar mais competitivas no mercado de trabalho. Acreditamos que esse objetivo foi alcançado neste projeto, além de oferecer uma interface própria para professores voluntários postarem seus cursos, também oferece o local correto onde os alunos irão assistir os cursos. Outro objetivo era o de cadastro de vagas e candidatura à essas vagas por parte dos alunos, também foi alcançado com sucesso.
 
-Pontos essenciais como público alvo, voluntários, parceiros e patrocinadores também foram discutidos e esperamos ampliar ainda mais a gama de funcionalidades para cada um deles!
-
-> Finalize escrevendo um ou dois parágrafos para relembrar o objetivo do projeto, 
-> o que foi possível alcançar e o que ficou para um trabalho futuro, e relembrando
-> as principais dificuldes encontradas e como foi possível contorná-las. 
-
-
+Alguns outros objetivos ficam para frente, como por exemplo, possibilitar a troca de mensagens entre os usuários. As principais dificuldades foram:
+- Integrar o trabalho que estava sendo feito separadamente: Usando o git, e aprendendo juntos os comandos via terminal, foi fácil contornar esse problema.
+- A ideia inicial do projeto estava abstrata e conflitante entre alguns alunos: Decidindo juntos de forma definitiva o caminho que seguiríamos foi crucial para resolver este problema.
