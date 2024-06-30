@@ -107,6 +107,20 @@ small{
     color: white !important;
 }
 
+.form-pesquisa-curso{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.container-input{
+    width: 50%;
+}
+
+#input-pesquisa{
+    width: 100%;
+}
+
+
 /*cards*/
 .card {
     padding: 1rem;

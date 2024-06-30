@@ -23,13 +23,15 @@
     <!--barra pesquisa-->
     <main class="principal">
         <div class="container">
-            <form class="form-pesquisa-curso">
-                <div class="input-group search-bar d-flex gap-3">
-                    <input type="search" class="form-control" id="input-pesquisa" placeholder="Pesquisar por...">
+            <form class="form-pesquisa-curso d-flex justify-content-center align-items-end gap-5">
+                    <div class="container-input">
+                        <label for="pesquisa"><strong>Pesquisar curso:</strong></label>
+                        <input type="search" class="form-control" id="input-pesquisa" placeholder="Pesquisar por..." name="pesquisa">
+                    </div>
                         <!-- <div class="input-group-append">
                             <span class="input-group-text"><img src="/assets/img/lupa (1).png"></span>
                         </div> -->
-                    <div class="container-buttons">
+                    <div class="container-buttons mx-3">
                         <button class="btn-pesquisar btn" type="submit">
                             Pesquisar
                         </button>
@@ -37,7 +39,6 @@
                             Criar
                         </a>
                     </div>
-                </div>
             </form>
         
             <div class="row">
