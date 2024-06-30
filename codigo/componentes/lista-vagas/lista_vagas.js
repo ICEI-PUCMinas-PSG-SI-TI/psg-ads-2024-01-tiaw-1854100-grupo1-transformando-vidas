@@ -48,7 +48,7 @@ const btnAcesso = () => {
   const btn = document.createElement('a')
   btn.classList.add('btn-acesso')
   btn.setAttribute('href', `../candidatar-vaga/candidata_vaga.html${window.location.search}&idVaga=${vaga.id}`)
-  btn.innerText = 'Ir para vaga'
+  btn.innerText = 'Ir para vaga 🚀'
   return btn
 }
 
@@ -81,7 +81,7 @@ const setVaga = (vaga) => {
     const pReq = document.createElement('p')
     pReq.classList.add('card-text')
     pReq.classList.add('req-vaga')
-    pReq.innerText = `Requisitos: R$ ${vaga.requisitos}`
+    pReq.innerText = `Requisitos: ${vaga.requisitos}`
 
 
     const btn = btnAcesso()

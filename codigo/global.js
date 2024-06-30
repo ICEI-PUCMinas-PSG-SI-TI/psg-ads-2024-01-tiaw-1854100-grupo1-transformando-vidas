@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <a href="../../componentes/lista-vagas/lista_vagas.html?type=${typeLogin}&id=${idUser}" class="nav-item">Vagas</a>
             </div>
             <div>
-                <a href="" class="nav-item">Sobre nós</a>
+                <a href="../../componentes/sobre/sobre.html" class="nav-item">Sobre nós</a>
             </div>
 
         </nav>

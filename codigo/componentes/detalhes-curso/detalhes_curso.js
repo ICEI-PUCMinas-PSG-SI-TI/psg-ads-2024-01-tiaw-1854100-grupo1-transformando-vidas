@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const aluno = response
                     aluno.cursos.push(curso)
                     axios.put(`http://localhost:3000/alunos/${urlP.get('id')}`, aluno)
+                    alert('Curso marcado como concluído!')
                 })
             }
         })

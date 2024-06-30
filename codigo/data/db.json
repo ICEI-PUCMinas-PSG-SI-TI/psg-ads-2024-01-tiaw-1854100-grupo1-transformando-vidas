@@ -208,6 +208,22 @@
           "conteudo": "HTML",
           "link": "https://youtube.com",
           "descricao": "Introdução aos conceitos de html5 e css3 + práticas"
+        },
+        {
+          "id": "f5e8",
+          "professor": "Maria Luiza Ribeiro Ruas",
+          "nome": "Curso de HTML e CSS",
+          "conteudo": "HTML",
+          "link": "https://youtube.com",
+          "descricao": "Introdução aos conceitos de html5 e css3 + práticas"
+        },
+        {
+          "id": "87cd",
+          "professor": "Maria Luiza Ribeiro Ruas",
+          "nome": "Curso de JavaScript",
+          "conteudo": "Java",
+          "link": "https://youtube.com",
+          "descricao": "Introdução a linguagem JavaScript"
         }
       ],
       "seguidores": [

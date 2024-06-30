@@ -36,7 +36,7 @@ const setDesejavel = (vaga) => {
 const btnCandidatar = () => {
     const btn = document.createElement('button')
     btn.classList.add('btn-candidatar')
-    btn.innerText = 'Candidatar'
+    btn.innerText = 'Candidatar 📩'
     return btn
 }
 

@@ -31,8 +31,8 @@ async function loadProfiles(){
             <a href="../social-perfil/social_perfil.html?${urlParam}&idProfile=${profile.id}&typeProfile=${profile.tipo}" class="link-para-perfil">
                 <div class="container-perfil">
                     <h5>${profile.nome}</h5>
-                    <p>Perfil: ${profile.tipo}</p>
-                    <p class="desc-perfil">Descrição: ${profile.sobre || ''}</p>
+                    <p>👤 Perfil: ${profile.tipo}</p>
+                    <p class="desc-perfil">🖹 Descrição: ${profile.sobre || ''}</p>
                     <a href="../social-perfil/social_perfil.html?${urlParam}&idProfile=${profile.id}&typeProfile=${profile.tipo}" class="btn btn-primary">Acessar perfil</a>
                 </div>
             </a>

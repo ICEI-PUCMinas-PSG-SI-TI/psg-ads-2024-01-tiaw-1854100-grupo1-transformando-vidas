@@ -77,7 +77,7 @@ function setCurso(curso){
                 </p>
             </div>
             <a class="btn btn-acessar" href="../detalhes-curso/detalhes_curso.html?${urlParams}&idCurso=${curso.id}"/>
-                Acessar curso
+                Acessar curso 📚
             </a>   
         </div>
     `
